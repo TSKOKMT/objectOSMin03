@@ -10,7 +10,27 @@
 
 //visual
 #include "alphaDelta.h"
+#include "blueCrown.h"
 #include "curvePara.h"
+#include "deepVibe.h"
+#include "digitalHybe.h"
+#include "diveWave.h"
+#include "echoChamber.h"
+#include "fieldWork.h"
+#include "goingGone.h"
+#include "graviTas.h"
+#include "kuruKuri.h"
+#include "longLonger.h"
+#include "merryRound.h"
+#include "moreGet.h"
+#include "quickBrown.h"
+#include "rectAnd.h"
+#include "roundFace.h"
+#include "slideLane.h"
+#include "spaceBold.h"
+#include "squareScape.h"
+#include "threeStep.h"
+#include "wipVip.h"
 
 //word
 #include "wordCloud.h"
@@ -95,7 +115,27 @@ private:
     
     //visual
     alphaDelta myAlphaDelta;
+    blueCrown myBlueCrown;
     curvePara myCurvePara;
+    deepVibe myDeepVibe;
+    digitalHybe myDigitalHybe;
+    diveWave myDiveWave;
+    echoChamber myEchoChamber;
+    fieldWork myFieldWork;
+    goingGone myGoingGone;
+    graviTas myGraviTas;
+    kuruKuri myKuruKuri;
+    longLonger myLongLonger;
+    merryRound myMerryRound;
+    moreGet myMoreGet;
+    quickBrown myQuickBrown;
+    rectAnd myRectAnd;
+    roundFace myRoundFace;
+    slideLane mySlideLane;
+    spaceBold mySpaceBold;
+    squareScape mySquareScape;
+    threeStep myThreeStep;
+    wipVip myWipVip;
     
     //word
     wordCloud myWordCloud;

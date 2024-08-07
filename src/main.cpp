@@ -2,14 +2,13 @@
 #include "ofApp.h"
 
 //========================================================================
-int main( ){
+int main() {
 
-    ofGLFWWindowSettings msettings;
-    msettings.setSize( 1024, 768 );
-    msettings.numSamples = 0;
-    auto mainWin = ofCreateWindow( msettings );
-
+    ofGLFWWindowSettings settings;
+    settings.setSize(640, 360);
+    settings.numSamples = 0;
+    auto window = ofCreateWindow(settings);
     auto app = make_shared<ofApp>();
-    ofRunApp( mainWin, app );
+    ofRunApp(window, app);
     ofRunMainLoop();
 }
