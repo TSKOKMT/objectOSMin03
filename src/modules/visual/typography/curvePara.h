@@ -5,6 +5,7 @@
 #include "ofxTskokmtFont.h"
 #include "ofxFrameOcean.h"
 #include "ofxSvg.h"
+#include "colorCloud.h"
 
 class curvePara {
 
@@ -20,4 +21,6 @@ public:
         
 private:
     ofPolyline polyline_;
+    
+    colorCloud myColorCloud;
 };

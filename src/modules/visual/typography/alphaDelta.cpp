@@ -39,12 +39,16 @@ void alphaDelta::draw(ofRectangle frame_, float time_) {
     
     //DRAW
     
+    ofPushStyle();
+    
     ofFbo fbo;
     fbo.allocate(frame_.width, frame_.height, GL_RGBA, 4);
     fbo.begin();
     ofClear(0);
     ofPushMatrix();
     ofTranslate(-frame_.position);
+    
+    ofSetColor(myColorCloud.six[0]);
     
     vector<ofRectangle> framesL;
     if (myPressRoom.getAspect() > 1) framesL = VStack::get(frameM, weights, margin_);
@@ -76,4 +80,6 @@ void alphaDelta::draw(ofRectangle frame_, float time_) {
     ofPopMatrix();
     fbo.end();
     fbo.draw(frame_.position);
+    
+    ofPopStyle();
 }

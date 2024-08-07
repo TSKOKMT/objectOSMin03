@@ -7,115 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		"0094F7EA-39D0-4CCC-A1C3-9243834477E5" /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = "5A95A3F7-A2C4-4211-BA14-A3B6F381629F" /* stb_truetype.c */; };
-		"036B0AD7-F3BF-4639-89DD-6AC5963874B7" /* fromDip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "5F318EA9-30BE-496C-9DA4-8B2044CE855E" /* fromDip.cpp */; };
-		"046162E1-7508-4A16-BD3C-366B97D96BE9" /* ofxBox2dParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "9F09D3AC-B04C-4F54-AA43-6CFEB00C75BA" /* ofxBox2dParticleSystem.cpp */; };
-		"04BC4866-19D7-4EE8-AF26-CC5E0BD01CFA" /* ofxBox2dRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "FA152B0D-7E38-4C4F-A11D-6B0A8839C298" /* ofxBox2dRect.cpp */; };
-		"0AF74F46-36CB-4AE1-9EC2-F29287C777F9" /* b2ChainAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "621D847B-2D0C-4DC6-B661-96EA2A00F33D" /* b2ChainAndCircleContact.cpp */; };
-		"0CC79ABA-53C6-4268-B1DA-9DBBDF3B4FAD" /* slideGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "F26444F3-7E60-4BEF-9181-FD3EE28605AE" /* slideGrid.cpp */; };
-		"0F4E2B17-8538-44F8-91BC-95D1AD0F39EC" /* colorCloud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "239C8CD3-EF59-4532-BFBC-8415AE51719C" /* colorCloud.cpp */; };
-		"159CC04F-B2A5-4421-B04F-3324357BDF54" /* wordCloud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "768BD633-4601-492B-ADC8-3BB51FEED224" /* wordCloud.cpp */; };
-		"16CA0441-5081-47D4-A9B8-A1F5EE094B96" /* ofxBox2dBaseShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "4DEF971C-9614-430E-B00E-A60F65D68FC1" /* ofxBox2dBaseShape.cpp */; };
-		"194DC522-157B-48C1-8F40-DF0D9BE6569D" /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = "35F19F16-45AC-4D42-A961-8E3E13F89883" /* fontstash.c */; };
-		"1A6A79E3-8AE0-48CC-AC17-510B96B02084" /* b2WorldCallbacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "B17EE95D-CBA4-4C0D-83E8-F5F7B1FB348E" /* b2WorldCallbacks.cpp */; };
-		"1D56CB27-1819-477B-A102-A6C5A9079890" /* b2PrismaticJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "06196E63-607D-4D8E-BA0F-44AF3EB77779" /* b2PrismaticJoint.cpp */; };
-		"1FA07007-7F2E-4711-A5E3-9F83B6D37390" /* ofxBox2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "056BF47E-C885-46E3-9930-3F4F40655C77" /* ofxBox2d.cpp */; };
-		"2081F56A-E557-4276-8C5D-AACA55CA638F" /* b2ContactSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "0D0F07CD-6B0E-4924-B706-3B44AA5DE830" /* b2ContactSolver.cpp */; };
-		"23E2314B-46E1-4188-8C3B-40376CDB458B" /* b2ContactManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "EE19EE3F-6FDB-4EF1-AE77-480E2CB242A1" /* b2ContactManager.cpp */; };
-		"2719D238-9F80-4D26-9899-1CF07B4496F4" /* ofxBox2dRender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "4DDB397B-8BFA-4724-B9CB-E2C83C1C4B76" /* ofxBox2dRender.cpp */; };
-		"28B0C15D-3B57-47A5-AF8B-F1C1D13BD52D" /* emergeScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "2CE7677E-16DC-449C-874F-F91100BB833F" /* emergeScreen.cpp */; };
-		"28CC4A47-57A8-40B1-BE3C-6E06476AB0F6" /* ofxTskokmtTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "FCD0DF3D-2DF7-47DA-B7BD-BD8808A8DD31" /* ofxTskokmtTranslator.cpp */; };
-		"2B5EA396-0083-488D-899E-DBF3B71A50BB" /* b2TimeOfImpact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "BDF5E68F-9405-4CFA-91EF-183635BC39AA" /* b2TimeOfImpact.cpp */; };
-		"3739918B-39A3-4FBA-AFF0-2D563A219896" /* b2DistanceJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "147AAB2C-9FB0-4F4C-B570-7BE94FEA3EC8" /* b2DistanceJoint.cpp */; };
-		"37F75A23-D769-471D-8349-493796E4057B" /* HStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "02B0164F-7766-4C7C-8C19-DB0971BB8BB2" /* HStack.cpp */; };
-		"395156F4-0B83-4A13-8641-EA0D75944670" /* b2RopeJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "12C4D153-1DB8-4A68-8EAA-D94CED8056BE" /* b2RopeJoint.cpp */; };
-		"3B86058E-614F-480E-8B3B-E9289EC0B6BE" /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "6B75D2D6-38D7-4A57-9365-85B1D852B260" /* b2CollideCircle.cpp */; };
-		"3D621EE0-E5BC-45DC-827C-4862AA3E1E2B" /* b2DynamicTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "D23C7006-9B87-4295-81EF-66D21EEC5475" /* b2DynamicTree.cpp */; };
-		"4076F0F9-677D-4975-A485-9B1ACC5EA047" /* oddCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "88A3F251-171B-40CC-B2B2-2D9329352381" /* oddCover.cpp */; };
-		"44A736FD-64F2-4F0D-B0E0-09E19DE355F8" /* vipGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "09EB7AD1-9AA7-41F6-9E8F-0600CAA5AC22" /* vipGrid.cpp */; };
-		"4541FD7A-A007-4B94-A7E5-12472BA07778" /* synMeme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "DA74AC3C-2EB8-45F7-A18D-204F7027EE57" /* synMeme.cpp */; };
-		"45968AD9-8799-489D-9619-5EF1B9D23ED5" /* b2MotorJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "DFD44677-9670-403E-A98B-8876B72F7AF1" /* b2MotorJoint.cpp */; };
-		"49638C93-2A5F-491D-8F94-C2551478E538" /* ofxBox2dPolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "8679FB34-A722-4239-9EC4-C77F5E4B03B2" /* ofxBox2dPolygon.cpp */; };
-		"4AD6E554-B9A7-43A6-9ADA-772DD45C7B71" /* ofxBox2dCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "A0C1A71E-DC89-41AB-82D3-EFFA98B18DCB" /* ofxBox2dCircle.cpp */; };
-		"4C04F5D5-75DD-4358-95B8-D31EB7783446" /* b2CircleShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "1B0186BF-C534-480A-B512-799F66DDD557" /* b2CircleShape.cpp */; };
-		"4F4DEF9F-BA54-4698-8FEC-AA247032994A" /* curvePara.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "BF5FAD9D-C8BD-4DB0-AAD4-F36584AB68FD" /* curvePara.cpp */; };
-		"506B8696-A7A8-437A-88FD-AC4E0380ED4A" /* slitShut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "FA866B05-91B8-4647-80A9-9D0F836B167C" /* slitShut.cpp */; };
-		"5177621F-8651-4B3B-A71E-36A1BC20A5BC" /* boredomWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "FBE7F9AA-3EB5-4B84-9A39-38B95DD62648" /* boredomWindow.cpp */; };
-		"5215654F-0120-421A-BC28-5D2A41B8336B" /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "6EE44A2D-058B-4932-8190-33E5522FDEED" /* b2Rope.cpp */; };
-		"52F33913-2FBE-4CC9-99A2-FD9F9388F53B" /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "D6316A57-9D5B-4C9D-AD83-E21D68011160" /* b2CollideEdge.cpp */; };
-		"55C6A672-425F-4B7E-8B62-F6CCF04F7F33" /* b2GearJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "02593BB3-C60D-4474-8A1A-413B20B029B0" /* b2GearJoint.cpp */; };
-		"5811AB09-775D-480A-9397-E73575640FA0" /* b2EdgeShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "9AD26B58-3700-44DE-A5E2-229AD71C8743" /* b2EdgeShape.cpp */; };
-		"5833490F-8CE0-4E79-9F07-B189E8CC0E1E" /* pressRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "AE4DFEA3-3F65-4976-A3B6-EAECF6592FFA" /* pressRoom.cpp */; };
-		"594BCBEF-9B04-42F0-B51A-4D54A24BB9D5" /* zigZig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "D3250BCC-AA4F-4D9F-BCC1-428C15D354EC" /* zigZig.cpp */; };
-		"59954763-3A85-4795-86ED-C6F81E32D6C9" /* fragScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "2542DE02-6131-46C1-8DAA-0FA8E65BA37E" /* fragScreen.cpp */; };
-		"59FC65A0-11BF-4497-9C71-59EF2EB48882" /* b2Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "3A1D2D72-FD8D-4AB4-A644-EB21D63CBC0F" /* b2Math.cpp */; };
-		"61D20FAB-BDC8-4479-863E-9492125105CA" /* splitGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "865CDDC8-383D-4BFD-8D5D-18C159291CAA" /* splitGrid.cpp */; };
-		"62D5BC06-6900-4409-BBA8-26D10DA98AA5" /* marginBand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "7EA0CF16-1A7E-4F9E-9F7C-DC0FA56529A8" /* marginBand.cpp */; };
-		"67D104D7-3DCF-4F2C-B944-2F75E8FC5659" /* rapFlee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "5F508A26-969E-41B1-8886-5B3A336306BB" /* rapFlee.cpp */; };
-		"686AFE79-C02F-4142-9F46-9AE92F78143F" /* b2Island.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "E93361F6-928E-4D55-87B8-C5770C1B92FB" /* b2Island.cpp */; };
-		"68A56B3A-63D0-4BB6-B9EB-57B29E74AA95" /* radioWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "953456AC-5725-41EE-AAC0-4ED576C4E64B" /* radioWindow.cpp */; };
-		"6A306B14-F2D7-438F-853D-8AF59F4F5CC8" /* b2FreeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "4F825E6D-C57E-4E17-9162-D93464DD7D3F" /* b2FreeList.cpp */; };
-		"6B356942-6BCB-4873-875D-353B6C2EAE3F" /* ofxBox2dEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "98D528B8-6B69-43ED-9DA4-1D155351BD91" /* ofxBox2dEdge.cpp */; };
-		"6BCF96E6-1CE9-4041-A830-6FCFE7D362DC" /* VStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "E7A8AC8F-C82D-40C5-8F25-5A4A04AADA76" /* VStack.cpp */; };
-		"6CB5A46A-0198-4267-ACDD-1E1A255D1CBA" /* b2ParticleAssembly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "5B3E970E-258A-45F0-9188-A174DC1F8549" /* b2ParticleAssembly.cpp */; };
-		"704790C3-2629-4519-A834-DE86E256A77C" /* b2PolygonAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "45F9DBA0-11B0-468C-A1DA-2CD1FB3BDD8A" /* b2PolygonAndCircleContact.cpp */; };
-		"7108D0CB-C7EB-43FC-AF9E-5FA06A7B4389" /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "2EE84C2C-76C4-49BF-8DDB-E3E8593C3886" /* b2BroadPhase.cpp */; };
-		"75D1B4D1-9FDB-4E12-AF14-3879E12DD453" /* b2WheelJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "B6212155-EE4A-452A-AE5A-C0481687A946" /* b2WheelJoint.cpp */; };
-		"7ADE422D-C3E8-453E-9C40-66192E4147D7" /* b2Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "0689DB55-8A1E-44CE-9894-6113A73E7883" /* b2Timer.cpp */; };
-		"7C115A9A-6D1C-46FE-80A3-4A3AD854C94B" /* b2VoronoiDiagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "3A38F5BE-A50A-42FE-854C-6BBBD0C15DC1" /* b2VoronoiDiagram.cpp */; };
-		"82DC60C9-CE4D-4123-94FC-D7EB1F33FBDE" /* ofxBox2dUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "B3728C3F-B41F-4C79-8360-67BB6DA5DA68" /* ofxBox2dUtils.cpp */; };
-		"862249B3-AFD0-4F1F-A696-265C89DC632E" /* b2Fixture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "C0CE0CAC-434B-43A1-80F2-61C053ACD320" /* b2Fixture.cpp */; };
-		"86A5B9BE-1973-497F-81BC-23F452CA29F0" /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "FBC51CCA-4A1A-4B18-93D2-FFC8BB7486D4" /* b2RevoluteJoint.cpp */; };
-		"89FB67F7-EB78-4CD6-8042-00AC9023AEFC" /* b2PolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "112BC3B4-0249-4471-A8C0-F7375721A390" /* b2PolygonContact.cpp */; };
-		"8EA9BC4C-B91C-4B22-B168-A443173B097D" /* rollingRoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "EB7464BE-A011-44A0-935E-FD2DE5F4C2E8" /* rollingRoll.cpp */; };
-		"962E61BE-2B4D-46FF-A68D-6BE59DF4E9A8" /* ofxSvg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "982D8C69-014F-4AFE-92C7-A927EFEF1C94" /* ofxSvg.cpp */; };
-		"9AA601C8-5CDC-41A7-9A4E-70F0132B9BC1" /* colorWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "91000080-DD95-4D42-BE27-9347B670040B" /* colorWorld.cpp */; };
-		"9B2FCDC3-0453-42B9-9F75-8FD0CE7B1739" /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "6D24263A-E1D4-4168-9B06-864DB1BBBECF" /* b2WeldJoint.cpp */; };
-		"9CE6CDB2-3DF1-4F77-BF68-36FC965D7738" /* twoTone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "6043AD61-E8E5-46AF-B636-77BEC14082F8" /* twoTone.cpp */; };
-		"9D2333C2-FB00-4A37-9CBD-F95854EF098D" /* b2ChainAndPolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "239F4558-731D-4506-88F9-F45D3F89FBA9" /* b2ChainAndPolygonContact.cpp */; };
-		"9E99612D-5EF0-4505-86AA-7C290BC98764" /* b2CircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "45D3324A-1496-4381-80CC-C23FC0C9057F" /* b2CircleContact.cpp */; };
-		"A37EF987-1C55-4D45-B53D-65CE5EE7D427" /* b2World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "8DC2AF7C-6958-4B7B-BAEA-720840AA229B" /* b2World.cpp */; };
-		"A4EAF71E-75CB-4AFA-A2B4-4658F2611FB0" /* ofxTskokmtMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "E20C16D3-FE67-4260-A5CC-42B8D1A08AE0" /* ofxTskokmtMath.cpp */; };
-		"A54499E8-E1AC-4DD5-9B6E-3D35F55FD6B4" /* b2Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "77986D4A-72B5-46EE-B084-1E13358F85A7" /* b2Distance.cpp */; };
-		"A7016E5D-FBDD-438F-BA4D-7E064D98C92F" /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "503C4420-923A-447E-9869-92002522AFAD" /* triangle.cpp */; };
-		"ABB6DF70-1ED3-4F1B-AB19-C4C2F2DE7937" /* b2PulleyJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "4F8BF3D8-F278-47EA-8A62-DFB36DD5B6B8" /* b2PulleyJoint.cpp */; };
-		"ACF67C2E-14FB-4DD6-87F1-7455821DF886" /* ofxBox2dPolygonUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "2E8C4D5C-0561-478E-9693-262C554086DF" /* ofxBox2dPolygonUtils.cpp */; };
-		"AE40EDEA-C8AB-4DD5-A825-074159BEA9E3" /* criticalWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "1F60DAE0-D0B8-42FC-A7B3-43B0D65B2BB4" /* criticalWindow.cpp */; };
-		"B268152C-4E9C-4FCD-9E8A-FC4316E1AA3E" /* b2Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "434FE2A8-AAA0-415F-A745-C5B9373ED82C" /* b2Triangle.cpp */; };
-		"B3D026EE-3A49-4E06-8CF4-3456F4A66F50" /* b2Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "8D4F7B06-55EE-426C-86E1-D512F43C379F" /* b2Settings.cpp */; };
-		"B444C6F8-AEA2-47F2-BC79-A897CEC42354" /* blackCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "5115155E-0FF9-4B8C-AABE-B6F6016DD639" /* blackCover.cpp */; };
-		"B50A7A3E-9E3B-4FC6-A77C-CD8052D67292" /* alphaDelta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "C3467478-9130-4A94-BF80-7B61D444F09F" /* alphaDelta.cpp */; };
-		"BA7BFAD5-C742-414B-BC30-616C2BEE03C1" /* b2Body.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "EDC84CE3-283E-4512-A0A2-38741172A8C9" /* b2Body.cpp */; };
-		"BB979714-653C-4E6D-B59A-908F452F1324" /* b2Polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "978D7C37-DBE7-4A9B-8A85-A6F63CD21463" /* b2Polygon.cpp */; };
-		"BC494F2F-1C5B-4A31-849A-4EF4830D5DD8" /* b2ParticleGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "86AA64D7-C808-49D9-BF88-14064F018351" /* b2ParticleGroup.cpp */; };
-		"BC7941B6-79C5-4B61-B6D2-CB8158DCB1A2" /* b2TrackedBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "710C4560-A8B9-4AEB-8B5D-E34A229A462F" /* b2TrackedBlock.cpp */; };
-		"BD280AEF-8D53-48DA-BD96-07AF1F1A3BAC" /* b2CollidePolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "6E95D4C8-914A-4782-B2F1-9C36295773C7" /* b2CollidePolygon.cpp */; };
-		"BD73B985-E542-4BDA-8C9D-3AABEB52EBD0" /* b2Stat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "F49DFF5A-D59F-46C0-B673-0A736959C56E" /* b2Stat.cpp */; };
-		"BF650B3B-5F6D-4370-910F-B434795CD621" /* pushGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "1E370B1C-E400-49E0-81A1-7DB2336F460B" /* pushGrid.cpp */; };
-		"C8184F75-E638-416A-8014-94F8C8779DFD" /* b2BlockAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "7E94E542-0A4D-4EBB-9CD8-BB10328636AD" /* b2BlockAllocator.cpp */; };
-		"C8FB943E-6FE7-4128-B48A-152D20944AE5" /* b2PolygonShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "9D1EC0F8-7E89-4B5E-A6EF-4F8DBCA0F6FE" /* b2PolygonShape.cpp */; };
-		"CF1699E2-8251-4B5E-AFC1-159D63E83438" /* pikaCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "A86F1402-D3C8-4016-91AC-2820C5A9E4ED" /* pikaCover.cpp */; };
-		"D057F0FC-7492-4878-84AA-54493A1DE3EF" /* ofxBox2dConvexPoly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "9C1EA929-9404-440E-890D-80B6D1C0F923" /* ofxBox2dConvexPoly.cpp */; };
-		"D2F0C88B-875A-436E-89FF-A7981CD50A45" /* b2EdgeAndPolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "2306ABFB-3DA3-4537-95DA-9328B6F2FD05" /* b2EdgeAndPolygonContact.cpp */; };
-		"D7340541-C802-4BE7-BDFD-5AC03FFA808C" /* ofxBox2dJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "78CD76A2-A9B8-4401-8581-BED5AB64ECB0" /* ofxBox2dJoint.cpp */; };
-		"D79E1117-1AAB-4E9F-892F-4E75642B48C7" /* b2Draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "7BDB652A-6890-4458-A755-E496737B8F95" /* b2Draw.cpp */; };
-		"DE828D2F-5232-476C-8D31-EC45BA89501B" /* b2FrictionJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "873CC3B8-A642-4128-9C88-C5F5C8D6CB1D" /* b2FrictionJoint.cpp */; };
-		"DF3EDC82-B5B2-4EBD-A9C7-F75FDA172A1B" /* b2Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "01BD5EB3-F677-4A2C-8090-430C099E4B53" /* b2Collision.cpp */; };
-		"E3CD797A-08FE-491D-BDDB-7A9EC8EFE726" /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "9F09326A-60EF-495E-8D36-3469D322CC73" /* ofxFontStash.cpp */; };
+		"0CB395C8-6070-4389-8C1A-E5B2ADB4E0ED" /* radioWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "C471BF35-3763-4EE0-9C45-24406AA30854" /* radioWindow.cpp */; };
+		"13F1F393-6038-46AA-A785-E487AB66CF01" /* splitGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "369ED48D-A3FB-43D6-BE55-08CE80A40C1B" /* splitGrid.cpp */; };
+		"191BF443-2E57-42B4-9A7D-BB172CAF5690" /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "5867F010-15EE-48A7-9268-17D1CDC134DE" /* ofxFontStash.cpp */; };
+		"20D7D7A2-9082-4EC0-ACC9-ECCDAABA99C4" /* blackCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "C6ECB506-3C09-485A-B14B-B0B242D8F65E" /* blackCover.cpp */; };
+		"2726B851-B9EC-42E1-A086-8A32C3066BB1" /* marginBand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "9D36898F-BB52-4C9D-AFE1-5803BCFD04AB" /* marginBand.cpp */; };
+		"2CF4B516-6136-4F20-A7CF-E6A1D7924434" /* fromDip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "2A84BE77-4EDD-4D05-B651-51FB180E37A9" /* fromDip.cpp */; };
+		"334D3A8B-A0ED-466C-8FC2-A26947AD5C6E" /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = "82F40B04-36EA-42B7-AE8B-D5B9EA91D103" /* stb_truetype.c */; };
+		"34E9EEAA-7A01-4FD9-97B4-B14FC99A6059" /* noizArc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "2C399568-F807-4EBA-901B-02ED8F24D448" /* noizArc.cpp */; };
+		"37AFB7BA-B1A2-4F56-B4EE-3FEC52C1F6F4" /* wordCloud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "9C09DC63-66CB-4EAE-B729-4DA080AA8502" /* wordCloud.cpp */; };
+		"45880438-D97A-4C15-9C23-D0CC76FBBD6E" /* pressRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "1FBD02C0-7E63-4585-B5A5-106A17FDA5E3" /* pressRoom.cpp */; };
+		"5146B4D8-DBCA-47E7-87B7-02FDE3684DA9" /* HStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "CA54D0AB-5591-409A-BCC7-0E46E5B167CD" /* HStack.cpp */; };
+		"5583322D-B832-4E60-AC0B-5EC6B8C60910" /* rapFlee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "97F5A95D-1863-4E73-9FC0-E5EF0031A4FF" /* rapFlee.cpp */; };
+		"62FD86EB-0FBB-45B2-BFA8-F6988485FE28" /* flashCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "68E39800-A830-41D6-9D93-C435348E6861" /* flashCover.cpp */; };
+		"6604FD02-4468-4D65-AF72-CFF255DE28AE" /* rollingRoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "04E4AF53-E058-449E-85BE-0FCC5EAE87C2" /* rollingRoll.cpp */; };
+		"66513628-C4DA-499B-B12E-7EC60822A1D3" /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = "3573404B-CB05-4ADE-8AF2-8D1EEF37BF62" /* fontstash.c */; };
+		"7337EAD2-FA76-43ED-BA01-392285B5845B" /* slitShut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "992E31D0-9FFB-409E-A374-F0729C390E78" /* slitShut.cpp */; };
+		"7AEB56BE-CFD6-4C4F-925A-4E5876231D45" /* ofxTskokmtMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "E8D097F3-4765-4CFC-AA9A-2339725D72BF" /* ofxTskokmtMath.cpp */; };
+		"8AAD0AA8-15A2-45EB-8FE4-DF99E0B0E106" /* pikaCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "4471BA85-E346-41C0-9F40-453C1563FD12" /* pikaCover.cpp */; };
+		"95D51EC2-4CE8-4232-9820-E9D6D135AA91" /* colorCloud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "CA8A8DE1-CEE1-4DF6-B0A2-3C1D60BE7FD4" /* colorCloud.cpp */; };
+		"98DC3407-A3E4-4EA9-94B5-1193C5663543" /* ofxTskokmtFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "CEAEFC9C-E06E-4305-B7DA-7D3CE2DB97C7" /* ofxTskokmtFont.cpp */; };
+		"A08F13D8-E5DF-460E-98D7-23CB29D66D59" /* twoTone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "C2D4EC92-68F9-4708-8AB5-FBB71C1FCEB7" /* twoTone.cpp */; };
+		"A1FA6019-CE66-4A4C-A57B-09D40697E27A" /* synMeme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "28B4274F-9765-4F27-AA6E-945D53F18F29" /* synMeme.cpp */; };
+		"A8AB60CA-7965-49B0-8E2A-1E9F4DAEA2C0" /* objectOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "507B4C43-AC34-43F9-BCC0-662ED6362EBF" /* objectOS.cpp */; };
+		"AC6F5A92-7512-4C4D-8D40-977E3CC43130" /* VStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "996A79D9-0482-4E4D-8F3E-B58DD35ECAA5" /* VStack.cpp */; };
+		"B8F16CA9-8690-4D94-B7C6-A52B020E75FB" /* fragScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "4376255B-E00A-4BF0-8B34-08908851DB89" /* fragScreen.cpp */; };
+		"BAA95894-5E55-4C8D-A47B-783196994D1E" /* zigZig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "4F321549-5320-464C-ABBA-866631EDD53C" /* zigZig.cpp */; };
+		"C1283F51-F25F-4ABB-988C-EE7E0BF53DC9" /* emergeScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "711CE7EE-5868-419A-AEFE-F121AD89D3F8" /* emergeScreen.cpp */; };
+		"C5EB0D1D-3446-447A-BFF2-E66BAF0D49B3" /* ofxSvg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "3B25A4AA-B4A3-46CD-A046-A20A649AC22B" /* ofxSvg.cpp */; };
+		"C7421396-E4C6-4FE9-88BE-F7608B57E2C6" /* vipGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "AF622F83-A498-4EB5-AF82-DD9036DE3551" /* vipGrid.cpp */; };
+		"C75D9CE2-2F3D-4067-9913-BAB3611F1DA2" /* colorWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "65A6BAF9-1F20-4A1B-9658-EAF528804B64" /* colorWorld.cpp */; };
+		"CEB3EE4F-C865-4EA6-A833-218F90CD8C4D" /* slideGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "E715118A-D2A7-4F8F-96C3-521460F2D45C" /* slideGrid.cpp */; };
+		"D146A04E-ED59-4C93-829A-52AEF7AC6688" /* criticalWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "223F70CC-CD70-4EB4-A196-80AFD9BDB7D7" /* criticalWindow.cpp */; };
+		"D4B9B0BE-7E48-440D-BB1D-F19E0DF825FF" /* ofxTskokmtTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "07835BB1-1EE3-4FFE-9934-E7ECBD8ED449" /* ofxTskokmtTranslator.cpp */; };
+		"D6E0E228-5AF8-4DCD-9125-4AF59D6FA89D" /* boredomWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "DE87AE43-6DBA-45FA-8A6E-B7908225DDAB" /* boredomWindow.cpp */; };
+		"DB586309-030B-4B4D-9703-63B042691B99" /* oddCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "65254715-2571-494A-BC7E-2F3022B19AEC" /* oddCover.cpp */; };
+		"E0433D77-4D56-4093-B210-2C0DBF81FEE4" /* pushGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "C5030843-CBF0-463C-99C7-CCA474F48B96" /* pushGrid.cpp */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
-		"E6B90B0F-EE76-4B2E-A02A-411560EF315B" /* ofxTskokmtFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "E027185E-769A-4F7D-8ABD-3053110CFE14" /* ofxTskokmtFont.cpp */; };
-		"ED8116F7-947E-435F-B2AD-62B2084CC629" /* b2Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "9712C043-5D4B-4356-9FC2-51EAF881ED84" /* b2Particle.cpp */; };
-		"EDF97CBB-B320-466C-BEE1-C3E490CDD994" /* noizArc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "D32D17CA-AF8F-4BF9-81BC-B288441C2627" /* noizArc.cpp */; };
-		"EE77FF50-8905-42FC-AD96-A9463863FE40" /* b2Joint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "CD4662AA-29E7-4E5B-A33A-A08C1631C930" /* b2Joint.cpp */; };
-		"EEF3D49C-0765-467A-A8ED-212D86657668" /* objectOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "158238D7-B2F6-4070-9BDB-EED5216FBB3F" /* objectOS.cpp */; };
-		"EF88BC88-CEA9-48BC-8A16-974D036C667C" /* b2ChainShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "EE525990-87BD-4077-AF2B-EF0C00D5E5A4" /* b2ChainShape.cpp */; };
-		"F46F4449-B6A8-4EC8-B801-45D29149FF2D" /* b2StackAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "77BAE2F1-7748-4D05-8DD2-EE77FAF1AF74" /* b2StackAllocator.cpp */; };
-		"F4765D58-258D-4DB2-BA96-225BFC8C48B2" /* b2ParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "3454AECD-9117-4B64-ABDB-1FE713CDD24F" /* b2ParticleSystem.cpp */; };
-		"F62FBC04-BC53-4CA3-9DA5-30B57DC9D21D" /* b2EdgeAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "C697DDE2-78E6-443F-B5FE-83D84D18EC2D" /* b2EdgeAndCircleContact.cpp */; };
-		"F7FA6FA6-CCE0-45D7-ACE9-49FE8EE837EA" /* b2Contact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "2812B665-6D51-4F44-A913-CB966C76E415" /* b2Contact.cpp */; };
-		"FC1C9919-9562-4C42-BD79-3426AE85F920" /* flashCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "62D8F24D-D4A0-47F5-9792-1D3ACB91EF37" /* flashCover.cpp */; };
-		"FE1F3658-642C-46F5-870C-065210599E0F" /* b2MouseJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "BC525F83-D8A8-4FBC-AB54-BBDEB2F9865E" /* b2MouseJoint.cpp */; };
+		"EE3BFDC0-09DD-47A2-B0BD-4591AB710809" /* curvePara.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "6EB66255-9113-4DC5-A454-5045F9AE72FA" /* curvePara.cpp */; };
+		"FE073524-B2A6-4DE8-ACE1-84995C42C94F" /* alphaDelta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "95B7920D-04D8-4882-93F5-8C3898BA2422" /* alphaDelta.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -140,285 +71,139 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		"01BD5EB3-F677-4A2C-8090-430C099E4B53" /* b2Collision.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Collision.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2Collision.cpp; sourceTree = SOURCE_ROOT; };
-		"02593BB3-C60D-4474-8A1A-413B20B029B0" /* b2GearJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2GearJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2GearJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"02B0164F-7766-4C7C-8C19-DB0971BB8BB2" /* HStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HStack.cpp; path = src/addons/ofxFrameOcean/src/HStack.cpp; sourceTree = SOURCE_ROOT; };
-		"03F82EAF-AE52-4029-92ED-53B60CBA2C5C" /* emergeScreen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = emergeScreen.h; path = src/modules/screen/emergeScreen.h; sourceTree = SOURCE_ROOT; };
-		"053C7DE7-3A51-4D17-87C5-3EA416869E29" /* ofxBox2dUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dUtils.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dUtils.h; sourceTree = SOURCE_ROOT; };
-		"056BF47E-C885-46E3-9930-3F4F40655C77" /* ofxBox2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2d.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2d.cpp; sourceTree = SOURCE_ROOT; };
-		"06038A8D-6E63-4924-8608-485B2B9F50B7" /* chvalid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = chvalid.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/chvalid.h; sourceTree = SOURCE_ROOT; };
-		"06196E63-607D-4D8E-BA0F-44AF3EB77779" /* b2PrismaticJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2PrismaticJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"063CA7E0-2CCE-4F5E-8DA5-F3838E581F31" /* ofxTskokmtTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxTskokmtTranslator.h; path = src/addons/ofxTskokmtTranslator/src/ofxTskokmtTranslator.h; sourceTree = SOURCE_ROOT; };
-		"0689DB55-8A1E-44CE-9894-6113A73E7883" /* b2Timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Timer.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Timer.cpp; sourceTree = SOURCE_ROOT; };
-		"08343F09-5BB0-4373-8EB2-C288E399FB95" /* ofxFontStash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFontStash.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/src/ofxFontStash.h; sourceTree = SOURCE_ROOT; };
-		"09EB7AD1-9AA7-41F6-9E8F-0600CAA5AC22" /* vipGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vipGrid.cpp; path = src/modules/screen/vipGrid.cpp; sourceTree = SOURCE_ROOT; };
-		"0BF45200-AC38-4A60-91B5-039A1C88002D" /* tree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tree.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/tree.h; sourceTree = SOURCE_ROOT; };
-		"0C13806D-68C0-4C4B-9526-1D5D4F28610F" /* xmlunicode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlunicode.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlunicode.h; sourceTree = SOURCE_ROOT; };
-		"0D0F07CD-6B0E-4924-B706-3B44AA5DE830" /* b2ContactSolver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ContactSolver.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ContactSolver.cpp; sourceTree = SOURCE_ROOT; };
-		"0E3CFB26-CE58-43D8-AF62-419B358013D7" /* b2RopeJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2RopeJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2RopeJoint.h; sourceTree = SOURCE_ROOT; };
-		"10D0CB1F-FF4B-4ACE-9202-F9D1B281061C" /* b2TimeOfImpact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2TimeOfImpact.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2TimeOfImpact.h; sourceTree = SOURCE_ROOT; };
-		"112BC3B4-0249-4471-A8C0-F7375721A390" /* b2PolygonContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2PolygonContact.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2PolygonContact.cpp; sourceTree = SOURCE_ROOT; };
-		"12C4D153-1DB8-4A68-8EAA-D94CED8056BE" /* b2RopeJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2RopeJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2RopeJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"147AAB2C-9FB0-4F4C-B570-7BE94FEA3EC8" /* b2DistanceJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2DistanceJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2DistanceJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"1532E5AE-51C3-4AF3-BB71-6E7909F4BB67" /* pattern.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pattern.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/pattern.h; sourceTree = SOURCE_ROOT; };
-		"158238D7-B2F6-4070-9BDB-EED5216FBB3F" /* objectOS.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = objectOS.cpp; path = src/objectOS.cpp; sourceTree = SOURCE_ROOT; };
+		"03607298-C227-44F8-BD7D-7D16F0CC6BCE" /* flashCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = flashCover.h; path = src/modules/cover/flashCover.h; sourceTree = SOURCE_ROOT; };
+		"04E4AF53-E058-449E-85BE-0FCC5EAE87C2" /* rollingRoll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rollingRoll.cpp; path = src/modules/pixel/rollingRoll.cpp; sourceTree = SOURCE_ROOT; };
+		"05EF4632-7C17-4AFA-A65A-8B53CE96AB71" /* c14n.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = c14n.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/c14n.h; sourceTree = SOURCE_ROOT; };
+		"069FB968-4B64-4FFF-97E7-384344452C55" /* VStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = VStack.h; path = src/addons/ofxFrameOcean/src/VStack.h; sourceTree = SOURCE_ROOT; };
+		"07640FA8-515D-4553-B34C-95E99E5CB486" /* xmlregexp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlregexp.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlregexp.h; sourceTree = SOURCE_ROOT; };
+		"07835BB1-1EE3-4FFE-9934-E7ECBD8ED449" /* ofxTskokmtTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxTskokmtTranslator.cpp; path = src/addons/ofxTskokmtTranslator/src/ofxTskokmtTranslator.cpp; sourceTree = SOURCE_ROOT; };
+		"0C1F8F2E-BFFB-4F81-9B6F-8E9ED0D6B6AD" /* oddCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = oddCover.h; path = src/modules/cover/oddCover.h; sourceTree = SOURCE_ROOT; };
+		"0E811D0D-D42F-4FDD-B3BB-6A2A66A53DD8" /* ofxFrameOcean.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFrameOcean.h; path = src/addons/ofxFrameOcean/src/ofxFrameOcean.h; sourceTree = SOURCE_ROOT; };
 		191CD6FA2847E21E0085CBB6 /* of.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = of.entitlements; sourceTree = "<group>"; };
 		191EF70929D778A400F35F26 /* openFrameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = openFrameworks; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/libs/openFrameworks; sourceTree = SOURCE_ROOT; };
-		"1B0186BF-C534-480A-B512-799F66DDD557" /* b2CircleShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2CircleShape.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2CircleShape.cpp; sourceTree = SOURCE_ROOT; };
-		"1B59DFC6-4B11-444C-AE63-A73C69E646D4" /* ofxBox2dPolygonUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dPolygonUtils.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h; sourceTree = SOURCE_ROOT; };
-		"1E370B1C-E400-49E0-81A1-7DB2336F460B" /* pushGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pushGrid.cpp; path = src/modules/screen/pushGrid.cpp; sourceTree = SOURCE_ROOT; };
-		"1F0CDDDE-7BED-4E48-BF7B-A7789B7EAC79" /* xinclude.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xinclude.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xinclude.h; sourceTree = SOURCE_ROOT; };
-		"1F60DAE0-D0B8-42FC-A7B3-43B0D65B2BB4" /* criticalWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = criticalWindow.cpp; path = src/modules/pixel/criticalWindow.cpp; sourceTree = SOURCE_ROOT; };
-		"22ADB680-B6D4-490B-8747-0F6A502800E8" /* b2World.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2World.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2World.h; sourceTree = SOURCE_ROOT; };
-		"2306ABFB-3DA3-4537-95DA-9328B6F2FD05" /* b2EdgeAndPolygonContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2EdgeAndPolygonContact.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp; sourceTree = SOURCE_ROOT; };
-		"239C8CD3-EF59-4532-BFBC-8415AE51719C" /* colorCloud.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorCloud.cpp; path = src/colorCloud.cpp; sourceTree = SOURCE_ROOT; };
-		"239F4558-731D-4506-88F9-F45D3F89FBA9" /* b2ChainAndPolygonContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ChainAndPolygonContact.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp; sourceTree = SOURCE_ROOT; };
-		"2542DE02-6131-46C1-8DAA-0FA8E65BA37E" /* fragScreen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fragScreen.cpp; path = src/modules/screen/fragScreen.cpp; sourceTree = SOURCE_ROOT; };
-		"277ABE3B-0305-418B-AF32-2326528E85D0" /* schematron.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = schematron.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/schematron.h; sourceTree = SOURCE_ROOT; };
-		"2812B665-6D51-4F44-A913-CB966C76E415" /* b2Contact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Contact.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2Contact.cpp; sourceTree = SOURCE_ROOT; };
-		"282920FC-26EC-45EC-BF50-A2ED1808EEC9" /* ofxBox2dRect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dRect.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dRect.h; sourceTree = SOURCE_ROOT; };
-		"28A5DDC2-8544-49B7-AB89-5A7EA33453EA" /* b2RevoluteJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2RevoluteJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2RevoluteJoint.h; sourceTree = SOURCE_ROOT; };
-		"292D8611-BB63-45BA-B99F-B01B1302401C" /* slitShut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = slitShut.h; path = src/modules/pixel/slitShut.h; sourceTree = SOURCE_ROOT; };
-		"295A7408-E3B8-4B37-85BC-5A0F0168DDE0" /* b2CircleContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2CircleContact.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2CircleContact.h; sourceTree = SOURCE_ROOT; };
-		"2C644B1C-2B77-4C00-BD59-7AA3A5AE9376" /* b2GrowableStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2GrowableStack.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2GrowableStack.h; sourceTree = SOURCE_ROOT; };
-		"2C77B114-5F72-437F-9950-B1F7F3972481" /* encoding.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = encoding.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/encoding.h; sourceTree = SOURCE_ROOT; };
-		"2CE7677E-16DC-449C-874F-F91100BB833F" /* emergeScreen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emergeScreen.cpp; path = src/modules/screen/emergeScreen.cpp; sourceTree = SOURCE_ROOT; };
-		"2E2E3294-B322-4C94-B280-C2A88A793A4F" /* ofxBox2dPolygon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dPolygon.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dPolygon.h; sourceTree = SOURCE_ROOT; };
-		"2E36563B-53EA-4919-8507-FE27AFD81CE7" /* b2Rope.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Rope.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope/b2Rope.h; sourceTree = SOURCE_ROOT; };
-		"2E8C4D5C-0561-478E-9693-262C554086DF" /* ofxBox2dPolygonUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2dPolygonUtils.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dPolygonUtils.cpp; sourceTree = SOURCE_ROOT; };
-		"2EDBC6D3-16A9-404A-8EBD-CD033523314B" /* b2IntrusiveList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2IntrusiveList.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2IntrusiveList.h; sourceTree = SOURCE_ROOT; };
-		"2EE84C2C-76C4-49BF-8DDB-E3E8593C3886" /* b2BroadPhase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2BroadPhase.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2BroadPhase.cpp; sourceTree = SOURCE_ROOT; };
-		"2F6F561E-F71D-4A5C-B261-F31410434766" /* dict.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dict.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/dict.h; sourceTree = SOURCE_ROOT; };
-		"30AB080D-690D-4076-B9DC-CEA7A09854B0" /* xmlmemory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlmemory.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlmemory.h; sourceTree = SOURCE_ROOT; };
-		"33C34373-6168-4109-B38A-0AA9E81F4F79" /* parserInternals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parserInternals.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/parserInternals.h; sourceTree = SOURCE_ROOT; };
-		"3454AECD-9117-4B64-ABDB-1FE713CDD24F" /* b2ParticleSystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ParticleSystem.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle/b2ParticleSystem.cpp; sourceTree = SOURCE_ROOT; };
-		"35087884-9AAF-40B3-A3A4-8E33580E1347" /* b2ParticleGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ParticleGroup.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle/b2ParticleGroup.h; sourceTree = SOURCE_ROOT; };
-		"35F19F16-45AC-4D42-A961-8E3E13F89883" /* fontstash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fontstash.c; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash/src/fontstash.c; sourceTree = SOURCE_ROOT; };
-		"367C7A81-A5A3-459D-980B-5B0D28D317CC" /* b2StackAllocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2StackAllocator.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2StackAllocator.h; sourceTree = SOURCE_ROOT; };
-		"38FDB18C-D0D8-492A-BE94-240A55096398" /* zigZig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zigZig.h; path = src/modules/pixel/zigZig.h; sourceTree = SOURCE_ROOT; };
-		"39F53D07-0D9F-4B2F-ADE4-6BA84C9194FD" /* alphaDelta.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = alphaDelta.h; path = src/modules/visual/typography/alphaDelta.h; sourceTree = SOURCE_ROOT; };
-		"3A1D2D72-FD8D-4AB4-A644-EB21D63CBC0F" /* b2Math.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Math.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Math.cpp; sourceTree = SOURCE_ROOT; };
-		"3A38F5BE-A50A-42FE-854C-6BBBD0C15DC1" /* b2VoronoiDiagram.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2VoronoiDiagram.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle/b2VoronoiDiagram.cpp; sourceTree = SOURCE_ROOT; };
-		"3A5A4581-B9C8-4397-A800-68E66697E888" /* b2Timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Timer.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Timer.h; sourceTree = SOURCE_ROOT; };
-		"3AE67402-C7BB-48DD-A069-254B62D99FC4" /* b2ContactSolver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ContactSolver.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ContactSolver.h; sourceTree = SOURCE_ROOT; };
-		"3BA8E6B9-1967-4757-AA74-A8BD0AB20E8C" /* catalog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = catalog.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/catalog.h; sourceTree = SOURCE_ROOT; };
-		"3DDA0227-A8C6-4CC9-A4F7-5C32945FDD0D" /* uri.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uri.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/uri.h; sourceTree = SOURCE_ROOT; };
-		"3E20C933-1082-4755-9564-F1B12A6033A3" /* splitGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = splitGrid.h; path = src/modules/screen/splitGrid.h; sourceTree = SOURCE_ROOT; };
-		"3E31F884-ABC1-4FD2-89D9-D0D6166CD11D" /* slideGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = slideGrid.h; path = src/modules/screen/slideGrid.h; sourceTree = SOURCE_ROOT; };
-		"41B1287D-E641-48AB-B660-9168D43706D1" /* c14n.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = c14n.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/c14n.h; sourceTree = SOURCE_ROOT; };
-		"42AAD295-E905-42E5-9832-2C72F56D5711" /* SAX.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SAX.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/SAX.h; sourceTree = SOURCE_ROOT; };
-		"42ECE344-09B3-4BD3-91BC-FE31E4ED9A1B" /* b2GrowableBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2GrowableBuffer.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2GrowableBuffer.h; sourceTree = SOURCE_ROOT; };
-		"42EDFCDE-6D3B-47E6-91EF-563A191F7451" /* pressRoom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pressRoom.h; path = src/modules/pressRoom.h; sourceTree = SOURCE_ROOT; };
-		"434FE2A8-AAA0-415F-A745-C5B9373ED82C" /* b2Triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Triangle.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities/ConvexDecomposition/b2Triangle.cpp; sourceTree = SOURCE_ROOT; };
-		"443332D4-EB22-4305-AE46-43BC79E987D1" /* fragScreen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fragScreen.h; path = src/modules/screen/fragScreen.h; sourceTree = SOURCE_ROOT; };
-		"4460BD4C-A4E5-4B82-8058-07E4F595F676" /* HTMLtree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HTMLtree.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/HTMLtree.h; sourceTree = SOURCE_ROOT; };
-		"45108E76-CCDB-4586-BC0B-30FD6E009374" /* b2Shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Shape.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2Shape.h; sourceTree = SOURCE_ROOT; };
-		"45D3324A-1496-4381-80CC-C23FC0C9057F" /* b2CircleContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2CircleContact.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2CircleContact.cpp; sourceTree = SOURCE_ROOT; };
-		"45F9DBA0-11B0-468C-A1DA-2CD1FB3BDD8A" /* b2PolygonAndCircleContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2PolygonAndCircleContact.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp; sourceTree = SOURCE_ROOT; };
-		"46713B17-5551-4756-A399-5618CDE8739B" /* list.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = list.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/list.h; sourceTree = SOURCE_ROOT; };
-		"4817DAFB-53D2-4640-A064-361ED7D45196" /* xpathInternals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xpathInternals.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xpathInternals.h; sourceTree = SOURCE_ROOT; };
-		"490D3A88-C20C-4D0A-8A13-B2D77D6F3ED9" /* ofxTskokmtMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxTskokmtMath.h; path = src/addons/ofxTskokmtMath/src/ofxTskokmtMath.h; sourceTree = SOURCE_ROOT; };
-		"4CBE4403-B735-4E56-92CA-16DD9E071257" /* b2PulleyJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2PulleyJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2PulleyJoint.h; sourceTree = SOURCE_ROOT; };
-		"4DDB397B-8BFA-4724-B9CB-E2C83C1C4B76" /* ofxBox2dRender.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2dRender.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dRender.cpp; sourceTree = SOURCE_ROOT; };
-		"4DEF971C-9614-430E-B00E-A60F65D68FC1" /* ofxBox2dBaseShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2dBaseShape.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dBaseShape.cpp; sourceTree = SOURCE_ROOT; };
-		"4E216CD2-AAE6-46FD-95EA-D25A13802F09" /* stb_truetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_truetype.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash/src/stb_truetype.h; sourceTree = SOURCE_ROOT; };
-		"4F825E6D-C57E-4E17-9162-D93464DD7D3F" /* b2FreeList.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2FreeList.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2FreeList.cpp; sourceTree = SOURCE_ROOT; };
-		"4F8BF3D8-F278-47EA-8A62-DFB36DD5B6B8" /* b2PulleyJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2PulleyJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2PulleyJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"4FBA9127-C81A-4AC4-A44D-6F0B37B8AA32" /* b2PolygonShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2PolygonShape.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2PolygonShape.h; sourceTree = SOURCE_ROOT; };
-		"503042C3-744A-4616-B446-9000A146C9FA" /* b2BroadPhase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2BroadPhase.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2BroadPhase.h; sourceTree = SOURCE_ROOT; };
-		"503C4420-923A-447E-9869-92002522AFAD" /* triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangle.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Triangle/triangle.cpp; sourceTree = SOURCE_ROOT; };
-		"5115155E-0FF9-4B8C-AABE-B6F6016DD639" /* blackCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blackCover.cpp; path = src/modules/cover/blackCover.cpp; sourceTree = SOURCE_ROOT; };
-		"5236A76A-A912-4AD9-83E9-5A3735DCCD18" /* oddCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = oddCover.h; path = src/modules/cover/oddCover.h; sourceTree = SOURCE_ROOT; };
-		"5288CDF5-7414-429A-A50B-9B2F34908B1D" /* ofxTskokmtFont.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxTskokmtFont.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxTskokmtFont/src/ofxTskokmtFont.h; sourceTree = SOURCE_ROOT; };
-		"5380B813-163B-4A1E-BF45-61CF1AE1F30B" /* triangle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = triangle.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Triangle/triangle.h; sourceTree = SOURCE_ROOT; };
-		"58EA7EC0-972E-4B1D-90C0-89EFAEA46BBF" /* ofxBox2dBaseShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dBaseShape.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dBaseShape.h; sourceTree = SOURCE_ROOT; };
-		"59FF2D9B-47AB-4CBC-BE2D-2F67B8AC50F5" /* b2WheelJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2WheelJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2WheelJoint.h; sourceTree = SOURCE_ROOT; };
-		"5A95A3F7-A2C4-4211-BA14-A3B6F381629F" /* stb_truetype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stb_truetype.c; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash/src/stb_truetype.c; sourceTree = SOURCE_ROOT; };
-		"5B3E970E-258A-45F0-9188-A174DC1F8549" /* b2ParticleAssembly.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ParticleAssembly.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle/b2ParticleAssembly.cpp; sourceTree = SOURCE_ROOT; };
-		"5E1DA708-8B5C-4803-82F3-FB3B93E1E664" /* xmlautomata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlautomata.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlautomata.h; sourceTree = SOURCE_ROOT; };
-		"5F318EA9-30BE-496C-9DA4-8B2044CE855E" /* fromDip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fromDip.cpp; path = src/modules/pixel/fromDip.cpp; sourceTree = SOURCE_ROOT; };
-		"5F508A26-969E-41B1-8886-5B3A336306BB" /* rapFlee.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rapFlee.cpp; path = src/modules/pixel/rapFlee.cpp; sourceTree = SOURCE_ROOT; };
-		"6043AD61-E8E5-46AF-B636-77BEC14082F8" /* twoTone.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = twoTone.cpp; path = src/modules/chrome/twoTone.cpp; sourceTree = SOURCE_ROOT; };
-		"60CC3B98-F9FC-41EC-88F1-4A0842CF8C73" /* xmlversion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlversion.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlversion.h; sourceTree = SOURCE_ROOT; };
-		"621D847B-2D0C-4DC6-B661-96EA2A00F33D" /* b2ChainAndCircleContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ChainAndCircleContact.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp; sourceTree = SOURCE_ROOT; };
-		"62D8F24D-D4A0-47F5-9792-1D3ACB91EF37" /* flashCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flashCover.cpp; path = src/modules/cover/flashCover.cpp; sourceTree = SOURCE_ROOT; };
-		"64F7A84D-D569-4301-A7CE-3E369D80ABA2" /* b2ChainShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ChainShape.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2ChainShape.h; sourceTree = SOURCE_ROOT; };
-		"66206232-0E7C-4674-A78E-478D33A2FD88" /* VStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = VStack.h; path = src/addons/ofxFrameOcean/src/VStack.h; sourceTree = SOURCE_ROOT; };
-		"6A79FF47-B1DD-404A-AD0B-BA4FA7795EA3" /* nanohttp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanohttp.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/nanohttp.h; sourceTree = SOURCE_ROOT; };
-		"6B75D2D6-38D7-4A57-9365-85B1D852B260" /* b2CollideCircle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2CollideCircle.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2CollideCircle.cpp; sourceTree = SOURCE_ROOT; };
-		"6CF49E8E-2943-442D-BE18-B4CFD1923359" /* b2GearJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2GearJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2GearJoint.h; sourceTree = SOURCE_ROOT; };
-		"6D24263A-E1D4-4168-9B06-864DB1BBBECF" /* b2WeldJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2WeldJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2WeldJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"6E95D4C8-914A-4782-B2F1-9C36295773C7" /* b2CollidePolygon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2CollidePolygon.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2CollidePolygon.cpp; sourceTree = SOURCE_ROOT; };
-		"6EE44A2D-058B-4932-8190-33E5522FDEED" /* b2Rope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Rope.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope/b2Rope.cpp; sourceTree = SOURCE_ROOT; };
-		"70101295-4935-4FE3-AFFB-2D598AB5E96A" /* colorWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorWorld.h; path = src/modules/chrome/colorWorld.h; sourceTree = SOURCE_ROOT; };
-		"710C4560-A8B9-4AEB-8B5D-E34A229A462F" /* b2TrackedBlock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2TrackedBlock.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2TrackedBlock.cpp; sourceTree = SOURCE_ROOT; };
-		"716A0F4A-873B-4F9A-A805-8439112FFB90" /* noizArc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = noizArc.h; path = src/modules/pixel/noizArc.h; sourceTree = SOURCE_ROOT; };
-		"72977CB5-7B11-4032-B9D5-3021B1657599" /* b2Island.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Island.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Island.h; sourceTree = SOURCE_ROOT; };
-		"73424444-F023-493B-88BE-372C4DD27752" /* xpath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xpath.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xpath.h; sourceTree = SOURCE_ROOT; };
-		"768BD633-4601-492B-ADC8-3BB51FEED224" /* wordCloud.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wordCloud.cpp; path = src/wordCloud.cpp; sourceTree = SOURCE_ROOT; };
-		"77986D4A-72B5-46EE-B084-1E13358F85A7" /* b2Distance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Distance.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2Distance.cpp; sourceTree = SOURCE_ROOT; };
-		"77BAE2F1-7748-4D05-8DD2-EE77FAF1AF74" /* b2StackAllocator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2StackAllocator.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2StackAllocator.cpp; sourceTree = SOURCE_ROOT; };
-		"78CD76A2-A9B8-4401-8581-BED5AB64ECB0" /* ofxBox2dJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2dJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"78D07BDD-7780-4F66-9C11-6593D59F1C10" /* blackCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = blackCover.h; path = src/modules/cover/blackCover.h; sourceTree = SOURCE_ROOT; };
-		"79C959AB-1337-45AB-A9D9-C810FEF88AC3" /* pushGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pushGrid.h; path = src/modules/screen/pushGrid.h; sourceTree = SOURCE_ROOT; };
-		"7A0425A3-0DD4-4758-BD1E-15B3D377ED6F" /* b2TimeStep.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2TimeStep.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2TimeStep.h; sourceTree = SOURCE_ROOT; };
-		"7A3FFE14-8EC9-40FA-A8CA-0AFCA9EAEFD7" /* xpointer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xpointer.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xpointer.h; sourceTree = SOURCE_ROOT; };
-		"7B083DCB-14EE-4EC8-85A0-A99EE5EA11F2" /* b2StackQueue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2StackQueue.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle/b2StackQueue.h; sourceTree = SOURCE_ROOT; };
-		"7BDB652A-6890-4458-A755-E496737B8F95" /* b2Draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Draw.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Draw.cpp; sourceTree = SOURCE_ROOT; };
-		"7C289C5D-7692-41C3-AA18-3458D0D26766" /* b2DynamicTree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2DynamicTree.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2DynamicTree.h; sourceTree = SOURCE_ROOT; };
-		"7CCE6C6F-1A5F-43DB-AD47-FB4D60E0A7DA" /* b2PolygonContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2PolygonContact.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2PolygonContact.h; sourceTree = SOURCE_ROOT; };
-		"7E81ADAB-1A83-4EA5-9A6D-6F1E48367825" /* b2Polygon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Polygon.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities/ConvexDecomposition/b2Polygon.h; sourceTree = SOURCE_ROOT; };
-		"7E94E542-0A4D-4EBB-9CD8-BB10328636AD" /* b2BlockAllocator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2BlockAllocator.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2BlockAllocator.cpp; sourceTree = SOURCE_ROOT; };
-		"7EA0CF16-1A7E-4F9E-9F7C-DC0FA56529A8" /* marginBand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = marginBand.cpp; path = src/addons/ofxFrameOcean/src/marginBand.cpp; sourceTree = SOURCE_ROOT; };
-		"7ED65F2A-BE97-4053-9FF9-D1257B8E3E79" /* schemasInternals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = schemasInternals.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/schemasInternals.h; sourceTree = SOURCE_ROOT; };
-		"7FF6435A-AA68-4E85-90C6-8EBBC233C854" /* marginBand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = marginBand.h; path = src/addons/ofxFrameOcean/src/marginBand.h; sourceTree = SOURCE_ROOT; };
-		"8008A75B-C903-4FE0-971F-49AE6DE3D7A7" /* valid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = valid.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/valid.h; sourceTree = SOURCE_ROOT; };
-		"80FA6190-28A0-4DD2-AF3E-63B065B48DAD" /* ofxFrameOcean.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFrameOcean.h; path = src/addons/ofxFrameOcean/src/ofxFrameOcean.h; sourceTree = SOURCE_ROOT; };
-		"82738435-6982-45A6-B9DE-EF7EBFDDC884" /* threads.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = threads.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/threads.h; sourceTree = SOURCE_ROOT; };
-		"82914630-6609-47C5-90EB-6FE7D1AFC687" /* b2TrackedBlock.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2TrackedBlock.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2TrackedBlock.h; sourceTree = SOURCE_ROOT; };
-		"829D5ED1-6CE2-40BE-8F25-5AB178D89245" /* ofxBox2dJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dJoint.h; sourceTree = SOURCE_ROOT; };
-		"8384678E-5B00-4869-8AC7-4082AEEB47F6" /* jtypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jtypes.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements/FixedPoint/jtypes.h; sourceTree = SOURCE_ROOT; };
-		"83FDA2FE-E770-4908-9E6E-A4CC96168F67" /* b2ContactManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ContactManager.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2ContactManager.h; sourceTree = SOURCE_ROOT; };
-		"865CDDC8-383D-4BFD-8D5D-18C159291CAA" /* splitGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = splitGrid.cpp; path = src/modules/screen/splitGrid.cpp; sourceTree = SOURCE_ROOT; };
-		"8679FB34-A722-4239-9EC4-C77F5E4B03B2" /* ofxBox2dPolygon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2dPolygon.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dPolygon.cpp; sourceTree = SOURCE_ROOT; };
-		"86AA64D7-C808-49D9-BF88-14064F018351" /* b2ParticleGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ParticleGroup.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle/b2ParticleGroup.cpp; sourceTree = SOURCE_ROOT; };
-		"873CC3B8-A642-4128-9C88-C5F5C8D6CB1D" /* b2FrictionJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2FrictionJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2FrictionJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"8763A222-23E4-4D0E-ACB6-A5520B5006EC" /* b2WorldCallbacks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2WorldCallbacks.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2WorldCallbacks.h; sourceTree = SOURCE_ROOT; };
-		"88A3F251-171B-40CC-B2B2-2D9329352381" /* oddCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = oddCover.cpp; path = src/modules/cover/oddCover.cpp; sourceTree = SOURCE_ROOT; };
-		"8939F2B2-33BC-41A3-9BA4-83697CB4E8D9" /* b2EdgeAndPolygonContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2EdgeAndPolygonContact.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h; sourceTree = SOURCE_ROOT; };
-		"8A2E6654-25FC-4590-BE23-37825D298E0A" /* xmlschemas.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlschemas.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlschemas.h; sourceTree = SOURCE_ROOT; };
-		"8B2B7789-3691-4C35-8869-265C09EF78DA" /* b2EdgeAndCircleContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2EdgeAndCircleContact.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h; sourceTree = SOURCE_ROOT; };
-		"8C0D2D6D-48E1-4FF7-816D-A34E6EA04A13" /* svgtiny.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = svgtiny.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/svgtiny/include/svgtiny.h; sourceTree = SOURCE_ROOT; };
-		"8C8CBD5E-E807-4896-9176-9B589B6E3506" /* synMeme.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = synMeme.h; path = src/modules/pixel/synMeme.h; sourceTree = SOURCE_ROOT; };
-		"8D4F7B06-55EE-426C-86E1-D512F43C379F" /* b2Settings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Settings.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Settings.cpp; sourceTree = SOURCE_ROOT; };
-		"8DC2AF7C-6958-4B7B-BAEA-720840AA229B" /* b2World.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2World.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2World.cpp; sourceTree = SOURCE_ROOT; };
-		"8ECF86CE-3442-4B67-BE84-F34750859F7B" /* ofxBox2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2d.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2d.h; sourceTree = SOURCE_ROOT; };
-		"8EE3A92D-FDCB-4D11-8D39-8BBA344A453D" /* boredomWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = boredomWindow.h; path = src/modules/pixel/boredomWindow.h; sourceTree = SOURCE_ROOT; };
-		"8F7D6882-B47D-4237-ADA7-D35D0C6887E1" /* xmlexports.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlexports.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlexports.h; sourceTree = SOURCE_ROOT; };
-		"8FF9AC7B-2893-4467-971B-AA16E41ACAF0" /* b2Stat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Stat.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Stat.h; sourceTree = SOURCE_ROOT; };
-		"91000080-DD95-4D42-BE27-9347B670040B" /* colorWorld.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorWorld.cpp; path = src/modules/chrome/colorWorld.cpp; sourceTree = SOURCE_ROOT; };
-		"91529072-D572-4C8C-9B83-D62296F52196" /* rollingRoll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rollingRoll.h; path = src/modules/pixel/rollingRoll.h; sourceTree = SOURCE_ROOT; };
-		"9178E563-31AC-4831-A3FF-29032E08327F" /* b2Distance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Distance.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2Distance.h; sourceTree = SOURCE_ROOT; };
-		"9245BF29-8F73-4928-ADD3-47A3ED7342F3" /* b2Particle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Particle.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle/b2Particle.h; sourceTree = SOURCE_ROOT; };
-		"925DC279-006E-476D-B751-E055325AF0F9" /* entities.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = entities.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/entities.h; sourceTree = SOURCE_ROOT; };
-		"93C6E2CD-C28D-4745-975B-653619299E2B" /* ofxBox2dCircle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dCircle.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dCircle.h; sourceTree = SOURCE_ROOT; };
-		"953456AC-5725-41EE-AAC0-4ED576C4E64B" /* radioWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = radioWindow.cpp; path = src/modules/pixel/radioWindow.cpp; sourceTree = SOURCE_ROOT; };
-		"95B7DA9D-970B-4649-B4A5-A45E098DEA4A" /* hash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hash.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/hash.h; sourceTree = SOURCE_ROOT; };
-		"9712C043-5D4B-4356-9FC2-51EAF881ED84" /* b2Particle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Particle.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle/b2Particle.cpp; sourceTree = SOURCE_ROOT; };
-		"978D7C37-DBE7-4A9B-8A85-A6F63CD21463" /* b2Polygon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Polygon.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities/ConvexDecomposition/b2Polygon.cpp; sourceTree = SOURCE_ROOT; };
-		"982D8C69-014F-4AFE-92C7-A927EFEF1C94" /* ofxSvg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxSvg.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/src/ofxSvg.cpp; sourceTree = SOURCE_ROOT; };
-		"98D528B8-6B69-43ED-9DA4-1D155351BD91" /* ofxBox2dEdge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2dEdge.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dEdge.cpp; sourceTree = SOURCE_ROOT; };
-		"9AD26B58-3700-44DE-A5E2-229AD71C8743" /* b2EdgeShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2EdgeShape.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2EdgeShape.cpp; sourceTree = SOURCE_ROOT; };
-		"9B5FB678-9B41-4427-83A0-1D2C2B029F63" /* relaxng.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = relaxng.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/relaxng.h; sourceTree = SOURCE_ROOT; };
-		"9B61D66B-3A38-47D2-B682-1C689D18C1E4" /* ofxBox2dConvexPoly.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dConvexPoly.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dConvexPoly.h; sourceTree = SOURCE_ROOT; };
-		"9BFBEC52-4842-4BCC-9D81-4BFC3C6C7EEE" /* xmlwriter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlwriter.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlwriter.h; sourceTree = SOURCE_ROOT; };
-		"9C1C9AA3-D786-4ECD-BD3B-7E3E045EB9A0" /* ofxBox2dParticleSystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dParticleSystem.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dParticleSystem.h; sourceTree = SOURCE_ROOT; };
-		"9C1EA929-9404-440E-890D-80B6D1C0F923" /* ofxBox2dConvexPoly.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2dConvexPoly.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dConvexPoly.cpp; sourceTree = SOURCE_ROOT; };
-		"9D1EC0F8-7E89-4B5E-A6EF-4F8DBCA0F6FE" /* b2PolygonShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2PolygonShape.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2PolygonShape.cpp; sourceTree = SOURCE_ROOT; };
-		"9F09326A-60EF-495E-8D36-3469D322CC73" /* ofxFontStash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxFontStash.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/src/ofxFontStash.cpp; sourceTree = SOURCE_ROOT; };
-		"9F09D3AC-B04C-4F54-AA43-6CFEB00C75BA" /* ofxBox2dParticleSystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2dParticleSystem.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dParticleSystem.cpp; sourceTree = SOURCE_ROOT; };
-		"A0C1A71E-DC89-41AB-82D3-EFFA98B18DCB" /* ofxBox2dCircle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2dCircle.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dCircle.cpp; sourceTree = SOURCE_ROOT; };
-		"A21CC55A-467C-4BB2-A9E2-A0B5709CAA4F" /* b2EdgeShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2EdgeShape.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2EdgeShape.h; sourceTree = SOURCE_ROOT; };
-		"A2A5C238-E06E-4842-B8EA-8329E5DEB157" /* b2Collision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Collision.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2Collision.h; sourceTree = SOURCE_ROOT; };
-		"A31A1C95-F6EC-49D4-9A1D-B483B655CC88" /* xmlstring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlstring.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlstring.h; sourceTree = SOURCE_ROOT; };
-		"A3CDFB32-4F99-40BF-AA4D-D60C2B84B0F6" /* nanoftp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanoftp.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/nanoftp.h; sourceTree = SOURCE_ROOT; };
-		"A431F7FB-681E-4210-9E47-19CE402D6E54" /* b2Triangle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Triangle.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities/ConvexDecomposition/b2Triangle.h; sourceTree = SOURCE_ROOT; };
-		"A57F51DD-C281-4ADE-ABAF-E39388C9529A" /* fontstash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fontstash.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash/src/fontstash.h; sourceTree = SOURCE_ROOT; };
-		"A5FCF7B7-0ADB-46CB-A65E-61BFFECD9B46" /* pikaCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pikaCover.h; path = src/modules/cover/pikaCover.h; sourceTree = SOURCE_ROOT; };
-		"A86F1402-D3C8-4016-91AC-2820C5A9E4ED" /* pikaCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pikaCover.cpp; path = src/modules/cover/pikaCover.cpp; sourceTree = SOURCE_ROOT; };
-		"AB7FBFB0-5F54-497E-954C-07FB021CCA4D" /* b2Fixture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Fixture.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Fixture.h; sourceTree = SOURCE_ROOT; };
-		"ABADE214-5D46-4B47-8385-8B3D4A9DFBBB" /* b2Joint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Joint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2Joint.h; sourceTree = SOURCE_ROOT; };
-		"AC48A7BF-5E14-4574-B458-3808585E08C4" /* b2Contact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Contact.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2Contact.h; sourceTree = SOURCE_ROOT; };
-		"AE23BFCD-C0DF-49A2-90A0-472A9E9057B3" /* colorCloud.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorCloud.h; path = src/colorCloud.h; sourceTree = SOURCE_ROOT; };
-		"AE4DFEA3-3F65-4976-A3B6-EAECF6592FFA" /* pressRoom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pressRoom.cpp; path = src/modules/pressRoom.cpp; sourceTree = SOURCE_ROOT; };
-		"B071EDCD-CD50-491B-8E2E-6CDA57F4BCA5" /* HTMLparser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HTMLparser.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/HTMLparser.h; sourceTree = SOURCE_ROOT; };
-		"B11AFC61-9E0C-44BC-B3E4-645E47B7A413" /* b2SlabAllocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2SlabAllocator.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2SlabAllocator.h; sourceTree = SOURCE_ROOT; };
-		"B17EE95D-CBA4-4C0D-83E8-F5F7B1FB348E" /* b2WorldCallbacks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2WorldCallbacks.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2WorldCallbacks.cpp; sourceTree = SOURCE_ROOT; };
-		"B288473A-5E56-4AF0-AB55-9602501D8FEF" /* xmlreader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlreader.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlreader.h; sourceTree = SOURCE_ROOT; };
-		"B3728C3F-B41F-4C79-8360-67BB6DA5DA68" /* ofxBox2dUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2dUtils.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dUtils.cpp; sourceTree = SOURCE_ROOT; };
-		"B3F7DF82-E8F8-4637-B591-5700F1C2D521" /* ofxBox2dEdge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dEdge.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dEdge.h; sourceTree = SOURCE_ROOT; };
-		"B5547090-2B8E-4D9F-8FBF-0CDD3689CE79" /* xmlIO.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlIO.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlIO.h; sourceTree = SOURCE_ROOT; };
-		"B6212155-EE4A-452A-AE5A-C0481687A946" /* b2WheelJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2WheelJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2WheelJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"BADB35FB-3A26-4D53-BC6A-33C09BA69C42" /* twoTone.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = twoTone.h; path = src/modules/chrome/twoTone.h; sourceTree = SOURCE_ROOT; };
-		"BB4FEDC0-EEAB-4538-A84E-948AFDB8244E" /* b2MotorJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2MotorJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2MotorJoint.h; sourceTree = SOURCE_ROOT; };
-		"BC525F83-D8A8-4FBC-AB54-BBDEB2F9865E" /* b2MouseJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2MouseJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2MouseJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"BC615156-D6E6-4331-A3B0-E5457335C6DB" /* wordCloud.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wordCloud.h; path = src/wordCloud.h; sourceTree = SOURCE_ROOT; };
-		"BDF5E68F-9405-4CFA-91EF-183635BC39AA" /* b2TimeOfImpact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2TimeOfImpact.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2TimeOfImpact.cpp; sourceTree = SOURCE_ROOT; };
-		"BF5FAD9D-C8BD-4DB0-AAD4-F36584AB68FD" /* curvePara.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = curvePara.cpp; path = src/modules/visual/typography/curvePara.cpp; sourceTree = SOURCE_ROOT; };
-		"BF649D30-9B55-46BA-BF67-E5DA31A1D271" /* b2ParticleSystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ParticleSystem.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle/b2ParticleSystem.h; sourceTree = SOURCE_ROOT; };
-		"C0CE0CAC-434B-43A1-80F2-61C053ACD320" /* b2Fixture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Fixture.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Fixture.cpp; sourceTree = SOURCE_ROOT; };
-		"C19896C4-6702-4EEB-A2AC-A7A8FCAD67ED" /* b2WeldJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2WeldJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2WeldJoint.h; sourceTree = SOURCE_ROOT; };
-		"C1D02DB6-B4A7-44AC-BD8B-937D5B95467D" /* fromDip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fromDip.h; path = src/modules/pixel/fromDip.h; sourceTree = SOURCE_ROOT; };
-		"C3467478-9130-4A94-BF80-7B61D444F09F" /* alphaDelta.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = alphaDelta.cpp; path = src/modules/visual/typography/alphaDelta.cpp; sourceTree = SOURCE_ROOT; };
-		"C5BCF9CC-887E-4D78-9350-6DB0FA92DAB0" /* b2Body.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Body.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Body.h; sourceTree = SOURCE_ROOT; };
-		"C697DDE2-78E6-443F-B5FE-83D84D18EC2D" /* b2EdgeAndCircleContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2EdgeAndCircleContact.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp; sourceTree = SOURCE_ROOT; };
-		"C7443031-0D6F-4974-A81C-6536642AF534" /* b2DistanceJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2DistanceJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2DistanceJoint.h; sourceTree = SOURCE_ROOT; };
-		"C88F7FD3-0026-48EF-B2EA-051E9D1C5E53" /* rapFlee.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rapFlee.h; path = src/modules/pixel/rapFlee.h; sourceTree = SOURCE_ROOT; };
-		"CAE8A624-FF03-4096-9AB9-4AD951F407B3" /* b2FreeList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2FreeList.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2FreeList.h; sourceTree = SOURCE_ROOT; };
-		"CB1BDE0C-40C5-41D2-B57B-C7FB161165F7" /* flashCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = flashCover.h; path = src/modules/cover/flashCover.h; sourceTree = SOURCE_ROOT; };
-		"CB9205BB-B511-4E73-BAF1-5A501A549DD3" /* xmlregexp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlregexp.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlregexp.h; sourceTree = SOURCE_ROOT; };
-		"CD4662AA-29E7-4E5B-A33A-A08C1631C930" /* b2Joint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Joint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2Joint.cpp; sourceTree = SOURCE_ROOT; };
-		"D055EA8A-23FE-46D5-9688-1F86ACF14550" /* b2PolygonAndCircleContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2PolygonAndCircleContact.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h; sourceTree = SOURCE_ROOT; };
-		"D23C7006-9B87-4295-81EF-66D21EEC5475" /* b2DynamicTree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2DynamicTree.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2DynamicTree.cpp; sourceTree = SOURCE_ROOT; };
-		"D2BC3D8E-F097-4709-8CE2-A9E891EC035A" /* criticalWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = criticalWindow.h; path = src/modules/pixel/criticalWindow.h; sourceTree = SOURCE_ROOT; };
-		"D3250BCC-AA4F-4D9F-BCC1-428C15D354EC" /* zigZig.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zigZig.cpp; path = src/modules/pixel/zigZig.cpp; sourceTree = SOURCE_ROOT; };
-		"D32D17CA-AF8F-4BF9-81BC-B288441C2627" /* noizArc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = noizArc.cpp; path = src/modules/pixel/noizArc.cpp; sourceTree = SOURCE_ROOT; };
-		"D3FB1CD3-D10C-4E24-9C3D-DCDECE6F2435" /* xmlmodule.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlmodule.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlmodule.h; sourceTree = SOURCE_ROOT; };
-		"D414F3FD-EE9A-4E2B-9D45-BDDBD869F696" /* b2ChainAndCircleContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ChainAndCircleContact.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.h; sourceTree = SOURCE_ROOT; };
-		"D6316A57-9D5B-4C9D-AD83-E21D68011160" /* b2CollideEdge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2CollideEdge.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2CollideEdge.cpp; sourceTree = SOURCE_ROOT; };
-		"D675E408-4E2D-48D8-8DBD-E41A26B3420C" /* DOCBparser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DOCBparser.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/DOCBparser.h; sourceTree = SOURCE_ROOT; };
-		"D6882468-E891-49FD-A9F5-AD7CB387D860" /* xlink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xlink.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xlink.h; sourceTree = SOURCE_ROOT; };
-		"D706D28D-669E-4722-A0F1-0F4879C84ED7" /* xmlschemastypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlschemastypes.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlschemastypes.h; sourceTree = SOURCE_ROOT; };
-		"D8D772A9-1806-49FD-8E73-21B34BDD768B" /* parser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parser.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/parser.h; sourceTree = SOURCE_ROOT; };
-		"D98A5A10-1722-4C1E-A492-9D0404206397" /* curvePara.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = curvePara.h; path = src/modules/visual/typography/curvePara.h; sourceTree = SOURCE_ROOT; };
-		"D9A41E69-115F-4035-8B14-7D7880C7A726" /* b2FrictionJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2FrictionJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2FrictionJoint.h; sourceTree = SOURCE_ROOT; };
-		"DA74AC3C-2EB8-45F7-A18D-204F7027EE57" /* synMeme.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = synMeme.cpp; path = src/modules/pixel/synMeme.cpp; sourceTree = SOURCE_ROOT; };
-		"DC86D4D4-EFED-4375-9372-283F070BA157" /* b2BlockAllocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2BlockAllocator.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2BlockAllocator.h; sourceTree = SOURCE_ROOT; };
-		"DD1B2975-53BC-495A-B5FA-D93AC649441F" /* Fixed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Fixed.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements/FixedPoint/Fixed.h; sourceTree = SOURCE_ROOT; };
-		"DE673919-9BFE-4F1A-BDFD-07058727CF73" /* radioWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = radioWindow.h; path = src/modules/pixel/radioWindow.h; sourceTree = SOURCE_ROOT; };
-		"DFD44677-9670-403E-A98B-8876B72F7AF1" /* b2MotorJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2MotorJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2MotorJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"DFE726B4-9F08-4D2B-9070-86A7EC4D11A2" /* objectOS.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = objectOS.h; path = src/objectOS.h; sourceTree = SOURCE_ROOT; };
-		"DFF1C34C-714D-4A8C-BAC8-69C4D4451F3B" /* b2CircleShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2CircleShape.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2CircleShape.h; sourceTree = SOURCE_ROOT; };
-		"E027185E-769A-4F7D-8ABD-3053110CFE14" /* ofxTskokmtFont.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxTskokmtFont.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxTskokmtFont/src/ofxTskokmtFont.cpp; sourceTree = SOURCE_ROOT; };
-		"E20C16D3-FE67-4260-A5CC-42B8D1A08AE0" /* ofxTskokmtMath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxTskokmtMath.cpp; path = src/addons/ofxTskokmtMath/src/ofxTskokmtMath.cpp; sourceTree = SOURCE_ROOT; };
-		"E3AB9F70-66F8-4A72-86CE-5EBDAE9A672D" /* xmlerror.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlerror.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlerror.h; sourceTree = SOURCE_ROOT; };
+		"1C37E42F-8C85-4DA1-AE29-52D9F736690C" /* fontstash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fontstash.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash/src/fontstash.h; sourceTree = SOURCE_ROOT; };
+		"1FBD02C0-7E63-4585-B5A5-106A17FDA5E3" /* pressRoom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pressRoom.cpp; path = src/modules/pressRoom.cpp; sourceTree = SOURCE_ROOT; };
+		"223F70CC-CD70-4EB4-A196-80AFD9BDB7D7" /* criticalWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = criticalWindow.cpp; path = src/modules/pixel/criticalWindow.cpp; sourceTree = SOURCE_ROOT; };
+		"2568521D-17D8-4C5F-9D52-0776C3FF1AA7" /* xinclude.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xinclude.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xinclude.h; sourceTree = SOURCE_ROOT; };
+		"28B4274F-9765-4F27-AA6E-945D53F18F29" /* synMeme.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = synMeme.cpp; path = src/modules/pixel/synMeme.cpp; sourceTree = SOURCE_ROOT; };
+		"2A84BE77-4EDD-4D05-B651-51FB180E37A9" /* fromDip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fromDip.cpp; path = src/modules/pixel/fromDip.cpp; sourceTree = SOURCE_ROOT; };
+		"2AB76716-0F5C-4844-9CA6-52A4290CB65D" /* parser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parser.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/parser.h; sourceTree = SOURCE_ROOT; };
+		"2B9EE4EA-0172-48EE-96E1-DAB9064081B3" /* xmlmemory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlmemory.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlmemory.h; sourceTree = SOURCE_ROOT; };
+		"2BD8C882-1AD9-45A5-A754-2AA2074CFB76" /* xmlmodule.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlmodule.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlmodule.h; sourceTree = SOURCE_ROOT; };
+		"2C399568-F807-4EBA-901B-02ED8F24D448" /* noizArc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = noizArc.cpp; path = src/modules/pixel/noizArc.cpp; sourceTree = SOURCE_ROOT; };
+		"310E868A-DE35-4C6C-A70B-EF16DD32C00A" /* HTMLparser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HTMLparser.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/HTMLparser.h; sourceTree = SOURCE_ROOT; };
+		"317F08F0-F4EE-4DA5-A88B-687FEE82E2B4" /* noizArc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = noizArc.h; path = src/modules/pixel/noizArc.h; sourceTree = SOURCE_ROOT; };
+		"3297960F-A950-455E-AA65-5A6B45CDABFC" /* ofxTskokmtMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxTskokmtMath.h; path = src/addons/ofxTskokmtMath/src/ofxTskokmtMath.h; sourceTree = SOURCE_ROOT; };
+		"32AA9FBE-AAF1-472B-80E9-3DECA451DD57" /* SAX2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SAX2.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/SAX2.h; sourceTree = SOURCE_ROOT; };
+		"34A4766B-52F5-462A-A089-4CE362D2402F" /* debugXML.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = debugXML.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/debugXML.h; sourceTree = SOURCE_ROOT; };
+		"3573404B-CB05-4ADE-8AF2-8D1EEF37BF62" /* fontstash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fontstash.c; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash/src/fontstash.c; sourceTree = SOURCE_ROOT; };
+		"369ED48D-A3FB-43D6-BE55-08CE80A40C1B" /* splitGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = splitGrid.cpp; path = src/modules/screen/splitGrid.cpp; sourceTree = SOURCE_ROOT; };
+		"378C46EC-F26C-41F4-AEEC-7BF49C3D82DE" /* SAX.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SAX.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/SAX.h; sourceTree = SOURCE_ROOT; };
+		"3972A3CA-AAC8-48BA-A30B-1B1154AC1F50" /* marginBand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = marginBand.h; path = src/addons/ofxFrameOcean/src/marginBand.h; sourceTree = SOURCE_ROOT; };
+		"3991C542-8D77-4017-9234-44379DDB6BE9" /* DOCBparser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DOCBparser.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/DOCBparser.h; sourceTree = SOURCE_ROOT; };
+		"39B57CB4-B59A-4180-8855-730D8F9B92BF" /* objectOS.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = objectOS.h; path = src/objectOS.h; sourceTree = SOURCE_ROOT; };
+		"3B25A4AA-B4A3-46CD-A046-A20A649AC22B" /* ofxSvg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxSvg.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/src/ofxSvg.cpp; sourceTree = SOURCE_ROOT; };
+		"3BCD31B5-A734-46F9-A67F-D71581A0BFD9" /* vipGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vipGrid.h; path = src/modules/screen/vipGrid.h; sourceTree = SOURCE_ROOT; };
+		"3EDD7156-B3CE-42AC-9A1B-EA47AEDF59E1" /* encoding.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = encoding.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/encoding.h; sourceTree = SOURCE_ROOT; };
+		"413C51C1-61E6-4ACC-80B5-291AC06595EB" /* pikaCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pikaCover.h; path = src/modules/cover/pikaCover.h; sourceTree = SOURCE_ROOT; };
+		"4376255B-E00A-4BF0-8B34-08908851DB89" /* fragScreen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fragScreen.cpp; path = src/modules/screen/fragScreen.cpp; sourceTree = SOURCE_ROOT; };
+		"4471BA85-E346-41C0-9F40-453C1563FD12" /* pikaCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pikaCover.cpp; path = src/modules/cover/pikaCover.cpp; sourceTree = SOURCE_ROOT; };
+		"45852D47-F072-4D7E-B02A-1B2BA3AA6818" /* xmlreader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlreader.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlreader.h; sourceTree = SOURCE_ROOT; };
+		"47162FD0-1BBB-4FED-903F-29BE393A3BC7" /* dict.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dict.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/dict.h; sourceTree = SOURCE_ROOT; };
+		"4717DB7C-0531-4016-859B-93EAD6E4F1F7" /* xmlautomata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlautomata.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlautomata.h; sourceTree = SOURCE_ROOT; };
+		"49E6850B-DEA1-40EF-A173-65BACFF90436" /* xmlexports.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlexports.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlexports.h; sourceTree = SOURCE_ROOT; };
+		"4C392A82-521C-4E70-80E0-D21A4C2D875D" /* chvalid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = chvalid.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/chvalid.h; sourceTree = SOURCE_ROOT; };
+		"4F321549-5320-464C-ABBA-866631EDD53C" /* zigZig.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zigZig.cpp; path = src/modules/pixel/zigZig.cpp; sourceTree = SOURCE_ROOT; };
+		"507B4C43-AC34-43F9-BCC0-662ED6362EBF" /* objectOS.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = objectOS.cpp; path = src/objectOS.cpp; sourceTree = SOURCE_ROOT; };
+		"53EC3E9E-CF12-4C50-8D64-CA52ABC58829" /* curvePara.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = curvePara.h; path = src/modules/visual/typography/curvePara.h; sourceTree = SOURCE_ROOT; };
+		"5539EC39-1812-4605-81DB-CF40657C480F" /* svgtiny.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = svgtiny.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/svgtiny/include/svgtiny.h; sourceTree = SOURCE_ROOT; };
+		"5867F010-15EE-48A7-9268-17D1CDC134DE" /* ofxFontStash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxFontStash.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/src/ofxFontStash.cpp; sourceTree = SOURCE_ROOT; };
+		"5ECB8515-5C3C-4D71-970F-EB6BC04A7346" /* synMeme.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = synMeme.h; path = src/modules/pixel/synMeme.h; sourceTree = SOURCE_ROOT; };
+		"65254715-2571-494A-BC7E-2F3022B19AEC" /* oddCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = oddCover.cpp; path = src/modules/cover/oddCover.cpp; sourceTree = SOURCE_ROOT; };
+		"653B941F-E275-48A9-87F4-6DFF7E3D97AD" /* colorCloud.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorCloud.h; path = src/colorCloud.h; sourceTree = SOURCE_ROOT; };
+		"659CA1DA-354F-4058-89E1-BB32441CC322" /* boredomWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = boredomWindow.h; path = src/modules/pixel/boredomWindow.h; sourceTree = SOURCE_ROOT; };
+		"65A6BAF9-1F20-4A1B-9658-EAF528804B64" /* colorWorld.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorWorld.cpp; path = src/modules/chrome/colorWorld.cpp; sourceTree = SOURCE_ROOT; };
+		"68E39800-A830-41D6-9D93-C435348E6861" /* flashCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flashCover.cpp; path = src/modules/cover/flashCover.cpp; sourceTree = SOURCE_ROOT; };
+		"6AF4000A-3162-44A7-B13D-02E3B76FFC2C" /* alphaDelta.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = alphaDelta.h; path = src/modules/visual/typography/alphaDelta.h; sourceTree = SOURCE_ROOT; };
+		"6B8D50D8-14F4-402D-ABE4-E09771DB113A" /* tree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tree.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/tree.h; sourceTree = SOURCE_ROOT; };
+		"6CD72F32-9F4F-4BEB-A39C-12486E18DDEC" /* pushGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pushGrid.h; path = src/modules/screen/pushGrid.h; sourceTree = SOURCE_ROOT; };
+		"6EB66255-9113-4DC5-A454-5045F9AE72FA" /* curvePara.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = curvePara.cpp; path = src/modules/visual/typography/curvePara.cpp; sourceTree = SOURCE_ROOT; };
+		"70D457FF-AA3E-420B-89A5-313D0FB571CE" /* HTMLtree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HTMLtree.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/HTMLtree.h; sourceTree = SOURCE_ROOT; };
+		"711CE7EE-5868-419A-AEFE-F121AD89D3F8" /* emergeScreen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emergeScreen.cpp; path = src/modules/screen/emergeScreen.cpp; sourceTree = SOURCE_ROOT; };
+		"780A4FCD-8DB2-4CA0-98B4-8D5F467F2308" /* threads.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = threads.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/threads.h; sourceTree = SOURCE_ROOT; };
+		"78841F57-094E-4CF8-924A-960AD95F310B" /* relaxng.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = relaxng.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/relaxng.h; sourceTree = SOURCE_ROOT; };
+		"78ED72B8-FEA2-48AD-8272-BF8257A0F1D3" /* xmlIO.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlIO.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlIO.h; sourceTree = SOURCE_ROOT; };
+		"7C48A0A5-A670-4455-98C3-EDA8EBC06F63" /* twoTone.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = twoTone.h; path = src/modules/chrome/twoTone.h; sourceTree = SOURCE_ROOT; };
+		"7E5F89C1-DF39-480C-B529-B04BF46B40FA" /* rapFlee.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rapFlee.h; path = src/modules/pixel/rapFlee.h; sourceTree = SOURCE_ROOT; };
+		"7FC3FF24-C0CC-4815-9E9C-A07146E8F9C5" /* wordCloud.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wordCloud.h; path = src/wordCloud.h; sourceTree = SOURCE_ROOT; };
+		"80434594-38DB-438F-81E7-B03DFFDE7284" /* criticalWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = criticalWindow.h; path = src/modules/pixel/criticalWindow.h; sourceTree = SOURCE_ROOT; };
+		"82593E7D-5C64-44A0-8A4E-F2854A398CB9" /* blackCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = blackCover.h; path = src/modules/cover/blackCover.h; sourceTree = SOURCE_ROOT; };
+		"82F40B04-36EA-42B7-AE8B-D5B9EA91D103" /* stb_truetype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stb_truetype.c; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash/src/stb_truetype.c; sourceTree = SOURCE_ROOT; };
+		"833B5C29-4AD1-4BF9-9DCA-3080FC02A614" /* ofxTskokmtTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxTskokmtTranslator.h; path = src/addons/ofxTskokmtTranslator/src/ofxTskokmtTranslator.h; sourceTree = SOURCE_ROOT; };
+		"85C0A78C-CDC7-48B7-B85D-5295CE857E00" /* schematron.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = schematron.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/schematron.h; sourceTree = SOURCE_ROOT; };
+		"8861A71B-6E66-4FF3-9AEE-A56CE5ADE5E4" /* xmlschemas.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlschemas.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlschemas.h; sourceTree = SOURCE_ROOT; };
+		"8E95EACF-68E2-402E-8B86-D4170EC6EA60" /* xpointer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xpointer.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xpointer.h; sourceTree = SOURCE_ROOT; };
+		"915FE066-9A47-4467-8A07-EF844E408057" /* xpath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xpath.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xpath.h; sourceTree = SOURCE_ROOT; };
+		"93CB1CCA-9498-4C9D-B284-939B7CB3FEB2" /* pattern.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pattern.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/pattern.h; sourceTree = SOURCE_ROOT; };
+		"94BD829F-53E4-449F-9E92-053CE13B9E78" /* HStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HStack.h; path = src/addons/ofxFrameOcean/src/HStack.h; sourceTree = SOURCE_ROOT; };
+		"95B7920D-04D8-4882-93F5-8C3898BA2422" /* alphaDelta.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = alphaDelta.cpp; path = src/modules/visual/typography/alphaDelta.cpp; sourceTree = SOURCE_ROOT; };
+		"9682E53D-58B5-4ABC-9D97-ED5591554733" /* nanoftp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanoftp.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/nanoftp.h; sourceTree = SOURCE_ROOT; };
+		"97BDFEF4-03DC-417E-A463-C21613B8107A" /* emergeScreen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = emergeScreen.h; path = src/modules/screen/emergeScreen.h; sourceTree = SOURCE_ROOT; };
+		"97F5A95D-1863-4E73-9FC0-E5EF0031A4FF" /* rapFlee.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rapFlee.cpp; path = src/modules/pixel/rapFlee.cpp; sourceTree = SOURCE_ROOT; };
+		"97FEC20C-FC87-49F8-900F-0ECFAE05DF4F" /* xpathInternals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xpathInternals.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xpathInternals.h; sourceTree = SOURCE_ROOT; };
+		"992E31D0-9FFB-409E-A374-F0729C390E78" /* slitShut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = slitShut.cpp; path = src/modules/pixel/slitShut.cpp; sourceTree = SOURCE_ROOT; };
+		"996A79D9-0482-4E4D-8F3E-B58DD35ECAA5" /* VStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VStack.cpp; path = src/addons/ofxFrameOcean/src/VStack.cpp; sourceTree = SOURCE_ROOT; };
+		"9C09DC63-66CB-4EAE-B729-4DA080AA8502" /* wordCloud.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wordCloud.cpp; path = src/wordCloud.cpp; sourceTree = SOURCE_ROOT; };
+		"9D36898F-BB52-4C9D-AFE1-5803BCFD04AB" /* marginBand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = marginBand.cpp; path = src/addons/ofxFrameOcean/src/marginBand.cpp; sourceTree = SOURCE_ROOT; };
+		"9EA66B1B-A85C-44B1-A93F-5D78E72A5564" /* xmlsave.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlsave.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlsave.h; sourceTree = SOURCE_ROOT; };
+		"A09591CC-9B9C-4C81-8242-A91895FB093A" /* colorWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorWorld.h; path = src/modules/chrome/colorWorld.h; sourceTree = SOURCE_ROOT; };
+		"AF622F83-A498-4EB5-AF82-DD9036DE3551" /* vipGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vipGrid.cpp; path = src/modules/screen/vipGrid.cpp; sourceTree = SOURCE_ROOT; };
+		"B07A42E5-C89C-47F0-9B05-7BA79EE364A8" /* nanohttp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanohttp.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/nanohttp.h; sourceTree = SOURCE_ROOT; };
+		"B306DEAA-EB26-43F6-A909-66CB87030CCB" /* xlink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xlink.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xlink.h; sourceTree = SOURCE_ROOT; };
+		"B37EC473-598D-4BE2-B4BD-A875A0618824" /* slitShut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = slitShut.h; path = src/modules/pixel/slitShut.h; sourceTree = SOURCE_ROOT; };
+		"B40F4C0F-04BD-47E2-9E15-C530EBAD3497" /* ofxTskokmtFont.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxTskokmtFont.h; path = src/addons/ofxTskokmtFont/src/ofxTskokmtFont.h; sourceTree = SOURCE_ROOT; };
+		"B58DFA03-C5AF-45A5-8C49-A0E3F3DAAAA2" /* ofxFontStash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFontStash.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/src/ofxFontStash.h; sourceTree = SOURCE_ROOT; };
+		"B59A8EF6-40F7-42F3-97A7-18F4420B6F04" /* xmlerror.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlerror.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlerror.h; sourceTree = SOURCE_ROOT; };
+		"B6DA2995-74FF-40F0-8568-3AD6E4AEA79C" /* fromDip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fromDip.h; path = src/modules/pixel/fromDip.h; sourceTree = SOURCE_ROOT; };
+		"B8DBC24E-D1EC-4C1B-9098-E682C81371B5" /* xmlschemastypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlschemastypes.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlschemastypes.h; sourceTree = SOURCE_ROOT; };
+		"B9E4557A-3FC5-4B6C-90F4-B693C4C0CBBB" /* fragScreen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fragScreen.h; path = src/modules/screen/fragScreen.h; sourceTree = SOURCE_ROOT; };
+		"BCF0CD12-3C47-4C24-891B-BA65E4EF9517" /* uri.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uri.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/uri.h; sourceTree = SOURCE_ROOT; };
+		"BF280667-245C-43D9-9397-89B01665B2E7" /* stb_truetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_truetype.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash/src/stb_truetype.h; sourceTree = SOURCE_ROOT; };
+		"C1817983-5864-46CA-B115-41130105EDE4" /* valid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = valid.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/valid.h; sourceTree = SOURCE_ROOT; };
+		"C268A719-44FE-44A7-8074-11CC672CD88A" /* radioWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = radioWindow.h; path = src/modules/pixel/radioWindow.h; sourceTree = SOURCE_ROOT; };
+		"C2BC27EE-CB41-40D0-8CBA-0A4533BE1CF6" /* xmlunicode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlunicode.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlunicode.h; sourceTree = SOURCE_ROOT; };
+		"C2D4EC92-68F9-4708-8AB5-FBB71C1FCEB7" /* twoTone.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = twoTone.cpp; path = src/modules/chrome/twoTone.cpp; sourceTree = SOURCE_ROOT; };
+		"C471BF35-3763-4EE0-9C45-24406AA30854" /* radioWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = radioWindow.cpp; path = src/modules/pixel/radioWindow.cpp; sourceTree = SOURCE_ROOT; };
+		"C5030843-CBF0-463C-99C7-CCA474F48B96" /* pushGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pushGrid.cpp; path = src/modules/screen/pushGrid.cpp; sourceTree = SOURCE_ROOT; };
+		"C6ECB506-3C09-485A-B14B-B0B242D8F65E" /* blackCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blackCover.cpp; path = src/modules/cover/blackCover.cpp; sourceTree = SOURCE_ROOT; };
+		"C84DDC0F-DB87-4CCC-9D0F-A6AD2C2FDBCB" /* xmlversion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlversion.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlversion.h; sourceTree = SOURCE_ROOT; };
+		"CA54D0AB-5591-409A-BCC7-0E46E5B167CD" /* HStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HStack.cpp; path = src/addons/ofxFrameOcean/src/HStack.cpp; sourceTree = SOURCE_ROOT; };
+		"CA8A8DE1-CEE1-4DF6-B0A2-3C1D60BE7FD4" /* colorCloud.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorCloud.cpp; path = src/colorCloud.cpp; sourceTree = SOURCE_ROOT; };
+		"CB293EAA-82BE-4B76-A8EE-08B88839A276" /* pressRoom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pressRoom.h; path = src/modules/pressRoom.h; sourceTree = SOURCE_ROOT; };
+		"CDD4ABE9-23F9-4909-858E-92ABF411EB35" /* entities.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = entities.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/entities.h; sourceTree = SOURCE_ROOT; };
+		"CEAEFC9C-E06E-4305-B7DA-7D3CE2DB97C7" /* ofxTskokmtFont.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxTskokmtFont.cpp; path = src/addons/ofxTskokmtFont/src/ofxTskokmtFont.cpp; sourceTree = SOURCE_ROOT; };
+		"CEFD8A3E-92E8-4162-81F7-346EE2750D83" /* parserInternals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parserInternals.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/parserInternals.h; sourceTree = SOURCE_ROOT; };
+		"D29DC1CA-4ED3-4241-B7DD-FC9B60F7B954" /* xmlstring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlstring.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlstring.h; sourceTree = SOURCE_ROOT; };
+		"D353462A-C606-4C14-A227-FEF7D45CDEEA" /* ofxSvg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxSvg.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/src/ofxSvg.h; sourceTree = SOURCE_ROOT; };
+		"D3712E2D-5311-4C61-822A-77866A5C6696" /* xmlwriter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlwriter.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlwriter.h; sourceTree = SOURCE_ROOT; };
+		"DE841940-7FDE-4735-B382-2E95F0D883B5" /* splitGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = splitGrid.h; path = src/modules/screen/splitGrid.h; sourceTree = SOURCE_ROOT; };
+		"DE87AE43-6DBA-45FA-8A6E-B7908225DDAB" /* boredomWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = boredomWindow.cpp; path = src/modules/pixel/boredomWindow.cpp; sourceTree = SOURCE_ROOT; };
+		"E0A1A1BB-950F-42CE-B635-D219167CEB50" /* zigZig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zigZig.h; path = src/modules/pixel/zigZig.h; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* objectOSMin03Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objectOSMin03Debug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
 		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
 		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
-		"E4D2F170-14BD-4B06-B949-473336755DD5" /* ofxBox2dContactListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dContactListener.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dContactListener.h; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		"E7755A79-9C30-4511-8740-1702E996B23B" /* vipGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vipGrid.h; path = src/modules/screen/vipGrid.h; sourceTree = SOURCE_ROOT; };
-		"E7A8AC8F-C82D-40C5-8F25-5A4A04AADA76" /* VStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VStack.cpp; path = src/addons/ofxFrameOcean/src/VStack.cpp; sourceTree = SOURCE_ROOT; };
-		"E8AA55B4-61D5-47D0-B95C-ADE7FFAAB1BA" /* SAX2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SAX2.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/SAX2.h; sourceTree = SOURCE_ROOT; };
-		"E8E4ABD3-3652-4DD3-80D0-4326C78C1360" /* Box2D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Box2D.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Box2D.h; sourceTree = SOURCE_ROOT; };
-		"E93361F6-928E-4D55-87B8-C5770C1B92FB" /* b2Island.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Island.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Island.cpp; sourceTree = SOURCE_ROOT; };
-		"E9529CA2-7E12-49B9-90AE-6CCD12C8CF77" /* b2Math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Math.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Math.h; sourceTree = SOURCE_ROOT; };
-		"EB7464BE-A011-44A0-935E-FD2DE5F4C2E8" /* rollingRoll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rollingRoll.cpp; path = src/modules/pixel/rollingRoll.cpp; sourceTree = SOURCE_ROOT; };
-		"EC449F9D-D9F9-4E5D-8C85-60F7CDBB8B58" /* b2ParticleAssembly.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ParticleAssembly.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle/b2ParticleAssembly.h; sourceTree = SOURCE_ROOT; };
-		"EDC84CE3-283E-4512-A0A2-38741172A8C9" /* b2Body.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Body.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Body.cpp; sourceTree = SOURCE_ROOT; };
-		"EE19EE3F-6FDB-4EF1-AE77-480E2CB242A1" /* b2ContactManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ContactManager.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2ContactManager.cpp; sourceTree = SOURCE_ROOT; };
-		"EE1D50E1-DEEC-4ECE-838F-F445F515D4E0" /* b2MouseJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2MouseJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2MouseJoint.h; sourceTree = SOURCE_ROOT; };
-		"EE525990-87BD-4077-AF2B-EF0C00D5E5A4" /* b2ChainShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ChainShape.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2ChainShape.cpp; sourceTree = SOURCE_ROOT; };
-		"EFD54ED4-EE86-4BAB-B053-EBB0396B7713" /* b2VoronoiDiagram.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2VoronoiDiagram.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle/b2VoronoiDiagram.h; sourceTree = SOURCE_ROOT; };
-		"F0FA8D71-D350-45ED-BE7D-860890FF052B" /* ofxBox2dRender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBox2dRender.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dRender.h; sourceTree = SOURCE_ROOT; };
-		"F26444F3-7E60-4BEF-9181-FD3EE28605AE" /* slideGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = slideGrid.cpp; path = src/modules/screen/slideGrid.cpp; sourceTree = SOURCE_ROOT; };
-		"F33E4437-04F6-47F1-B9B7-C387E7A928B5" /* b2Settings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Settings.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Settings.h; sourceTree = SOURCE_ROOT; };
-		"F3B856BC-D8E4-4859-8A3B-E5CCD701F638" /* ofxSvg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxSvg.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/src/ofxSvg.h; sourceTree = SOURCE_ROOT; };
-		"F4059F7C-9E56-4580-B306-C7BC697081F4" /* debugXML.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = debugXML.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/debugXML.h; sourceTree = SOURCE_ROOT; };
-		"F49DFF5A-D59F-46C0-B673-0A736959C56E" /* b2Stat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Stat.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Stat.cpp; sourceTree = SOURCE_ROOT; };
-		"F97D315B-3B65-4F29-AB9A-9EDB4A9611D6" /* globals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = globals.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/globals.h; sourceTree = SOURCE_ROOT; };
-		"F98493B3-84CC-47E6-A27F-942CBE9D3456" /* xmlsave.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlsave.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/xmlsave.h; sourceTree = SOURCE_ROOT; };
-		"FA152B0D-7E38-4C4F-A11D-6B0A8839C298" /* ofxBox2dRect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBox2dRect.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src/ofxBox2dRect.cpp; sourceTree = SOURCE_ROOT; };
-		"FA3AB0B4-600A-4FF8-AF23-DDC5DA47CAE5" /* b2PrismaticJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2PrismaticJoint.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2PrismaticJoint.h; sourceTree = SOURCE_ROOT; };
-		"FA866B05-91B8-4647-80A9-9D0F836B167C" /* slitShut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = slitShut.cpp; path = src/modules/pixel/slitShut.cpp; sourceTree = SOURCE_ROOT; };
-		"FABCEAA8-7B42-41D9-A4E4-51AFFEAC0687" /* b2ChainAndPolygonContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ChainAndPolygonContact.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.h; sourceTree = SOURCE_ROOT; };
-		"FBC51CCA-4A1A-4B18-93D2-FFC8BB7486D4" /* b2RevoluteJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2RevoluteJoint.cpp; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp; sourceTree = SOURCE_ROOT; };
-		"FBE7F9AA-3EB5-4B84-9A39-38B95DD62648" /* boredomWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = boredomWindow.cpp; path = src/modules/pixel/boredomWindow.cpp; sourceTree = SOURCE_ROOT; };
-		"FC1A25A2-D308-4AF2-86BF-1398660D8DDC" /* b2Draw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Draw.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Draw.h; sourceTree = SOURCE_ROOT; };
-		"FCD0DF3D-2DF7-47DA-B7BD-BD8808A8DD31" /* ofxTskokmtTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxTskokmtTranslator.cpp; path = src/addons/ofxTskokmtTranslator/src/ofxTskokmtTranslator.cpp; sourceTree = SOURCE_ROOT; };
-		"FCECD878-A5FF-47AA-A99A-97A338C98BFD" /* HStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HStack.h; path = src/addons/ofxFrameOcean/src/HStack.h; sourceTree = SOURCE_ROOT; };
+		"E62851F9-8A92-4D18-845D-23C15083B9F1" /* globals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = globals.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/globals.h; sourceTree = SOURCE_ROOT; };
+		"E715118A-D2A7-4F8F-96C3-521460F2D45C" /* slideGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = slideGrid.cpp; path = src/modules/screen/slideGrid.cpp; sourceTree = SOURCE_ROOT; };
+		"E8D097F3-4765-4CFC-AA9A-2339725D72BF" /* ofxTskokmtMath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxTskokmtMath.cpp; path = src/addons/ofxTskokmtMath/src/ofxTskokmtMath.cpp; sourceTree = SOURCE_ROOT; };
+		"EA017FAA-0ECA-4A15-AAC9-FE6A993EF5E0" /* rollingRoll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rollingRoll.h; path = src/modules/pixel/rollingRoll.h; sourceTree = SOURCE_ROOT; };
+		"F159EA74-3AA7-4897-B834-4D453342946F" /* catalog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = catalog.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/catalog.h; sourceTree = SOURCE_ROOT; };
+		"F1B160A7-6567-4891-939D-C4633E47691C" /* list.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = list.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/list.h; sourceTree = SOURCE_ROOT; };
+		"F2BA8B2A-1474-4F65-B9E2-FCE88973D99F" /* schemasInternals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = schemasInternals.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/schemasInternals.h; sourceTree = SOURCE_ROOT; };
+		"F40F0334-56C1-4B4E-AAE0-1196520D0A28" /* slideGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = slideGrid.h; path = src/modules/screen/slideGrid.h; sourceTree = SOURCE_ROOT; };
+		"F52AAC7C-908F-4A9E-B2C9-E4A4BC4D04F3" /* hash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hash.h; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/libxml2/include/libxml/hash.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -432,607 +217,329 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		"0C92B0C3-B9C1-4F7B-B935-61E63464675B" /* Box2D */ = {
+		"02B5480F-A7DA-4731-9E3E-F0A6EC7EC870" /* src */ = {
 			isa = PBXGroup;
 			children = (
-				"E8E4ABD3-3652-4DD3-80D0-4326C78C1360" /* Box2D.h */,
-				"A6B7CAE3-6EB2-4643-9764-5BF19273A59D" /* Collision */,
-				"4ABC40FD-7998-4451-AB3B-831C24D7E289" /* Common */,
-				"A7031C4F-2F46-4AAD-B222-751476F87961" /* Dynamics */,
-				"91EC5754-BBA1-4705-A1D2-64CD9D473677" /* Particle */,
-				"1F19773D-2F64-4FFA-A344-B4F5D61C7604" /* Rope */,
-			);
-			name = Box2D;
-			sourceTree = SOURCE_ROOT;
-		};
-		"1572E9FE-3BBD-4097-8D1B-D8A7A8C5C87B" /* Contributions */ = {
-			isa = PBXGroup;
-			children = (
-				"43672CBB-6797-4C9B-9655-3BBA42921EA1" /* Enhancements */,
-				"57AC7B4A-7B1D-4753-8E27-AD0BD7A30DFE" /* Utilities */,
-			);
-			name = Contributions;
-			sourceTree = SOURCE_ROOT;
-		};
-		"1752F2ED-4544-4658-835B-25F9F21CBF52" /* libxml2 */ = {
-			isa = PBXGroup;
-			children = (
-				"24EFB371-2D15-4D1E-934F-97FB01C80B88" /* include */,
-			);
-			name = libxml2;
-			sourceTree = SOURCE_ROOT;
-		};
-		"1B2D3ED3-7065-4494-BAF8-AF9213113902" /* Triangle */ = {
-			isa = PBXGroup;
-			children = (
-				"503C4420-923A-447E-9869-92002522AFAD" /* triangle.cpp */,
-				"5380B813-163B-4A1E-BF45-61CF1AE1F30B" /* triangle.h */,
-			);
-			name = Triangle;
-			sourceTree = SOURCE_ROOT;
-		};
-		"1D856A65-BE45-4866-BA0B-A76D60440F15" /* include */ = {
-			isa = PBXGroup;
-			children = (
-				"8C0D2D6D-48E1-4FF7-816D-A34E6EA04A13" /* svgtiny.h */,
-			);
-			name = include;
-			sourceTree = SOURCE_ROOT;
-		};
-		"1F19773D-2F64-4FFA-A344-B4F5D61C7604" /* Rope */ = {
-			isa = PBXGroup;
-			children = (
-				"6EE44A2D-058B-4932-8190-33E5522FDEED" /* b2Rope.cpp */,
-				"2E36563B-53EA-4919-8507-FE27AFD81CE7" /* b2Rope.h */,
-			);
-			name = Rope;
-			sourceTree = SOURCE_ROOT;
-		};
-		"24EFB371-2D15-4D1E-934F-97FB01C80B88" /* include */ = {
-			isa = PBXGroup;
-			children = (
-				"88E60B0A-7E07-420E-A21C-B539257A2670" /* libxml */,
-			);
-			name = include;
-			sourceTree = SOURCE_ROOT;
-		};
-		"25CC6FB5-39CC-450B-9C65-A0EDDF36F7A9" /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				"E3C96F56-1BB5-4079-BE5F-21873F86AE07" /* fontstash */,
-			);
-			name = libs;
-			sourceTree = SOURCE_ROOT;
-		};
-		"281CDD76-1980-47ED-97F8-D30D89A0F665" /* ConvexDecomposition */ = {
-			isa = PBXGroup;
-			children = (
-				"978D7C37-DBE7-4A9B-8A85-A6F63CD21463" /* b2Polygon.cpp */,
-				"7E81ADAB-1A83-4EA5-9A6D-6F1E48367825" /* b2Polygon.h */,
-				"434FE2A8-AAA0-415F-A745-C5B9373ED82C" /* b2Triangle.cpp */,
-				"A431F7FB-681E-4210-9E47-19CE402D6E54" /* b2Triangle.h */,
-			);
-			name = ConvexDecomposition;
-			sourceTree = SOURCE_ROOT;
-		};
-		"34AECCF6-D5E0-4C95-A59B-768B887D63A0" /* Shapes */ = {
-			isa = PBXGroup;
-			children = (
-				"EE525990-87BD-4077-AF2B-EF0C00D5E5A4" /* b2ChainShape.cpp */,
-				"64F7A84D-D569-4301-A7CE-3E369D80ABA2" /* b2ChainShape.h */,
-				"1B0186BF-C534-480A-B512-799F66DDD557" /* b2CircleShape.cpp */,
-				"DFF1C34C-714D-4A8C-BAC8-69C4D4451F3B" /* b2CircleShape.h */,
-				"9AD26B58-3700-44DE-A5E2-229AD71C8743" /* b2EdgeShape.cpp */,
-				"A21CC55A-467C-4BB2-A9E2-A0B5709CAA4F" /* b2EdgeShape.h */,
-				"9D1EC0F8-7E89-4B5E-A6EF-4F8DBCA0F6FE" /* b2PolygonShape.cpp */,
-				"4FBA9127-C81A-4AC4-A44D-6F0B37B8AA32" /* b2PolygonShape.h */,
-				"45108E76-CCDB-4586-BC0B-30FD6E009374" /* b2Shape.h */,
-			);
-			name = Shapes;
-			sourceTree = SOURCE_ROOT;
-		};
-		"34D5AD15-9E90-4742-AFBD-8A08BB3091C9" /* src */ = {
-			isa = PBXGroup;
-			children = (
-				"E20C16D3-FE67-4260-A5CC-42B8D1A08AE0" /* ofxTskokmtMath.cpp */,
-				"490D3A88-C20C-4D0A-8A13-B2D77D6F3ED9" /* ofxTskokmtMath.h */,
+				"CEAEFC9C-E06E-4305-B7DA-7D3CE2DB97C7" /* ofxTskokmtFont.cpp */,
+				"B40F4C0F-04BD-47E2-9E15-C530EBAD3497" /* ofxTskokmtFont.h */,
 			);
 			name = src;
-			path = src/addons/ofxTskokmtMath/src;
+			path = src/addons/ofxTskokmtFont/src;
 			sourceTree = SOURCE_ROOT;
 		};
-		"3DB49E75-2885-4E7D-99CF-4AA9E1293BB5" /* Joints */ = {
+		"10E19544-71E7-4E01-81A5-EC973180ECEC" /* ofxFontStash */ = {
 			isa = PBXGroup;
 			children = (
-				"147AAB2C-9FB0-4F4C-B570-7BE94FEA3EC8" /* b2DistanceJoint.cpp */,
-				"C7443031-0D6F-4974-A81C-6536642AF534" /* b2DistanceJoint.h */,
-				"873CC3B8-A642-4128-9C88-C5F5C8D6CB1D" /* b2FrictionJoint.cpp */,
-				"D9A41E69-115F-4035-8B14-7D7880C7A726" /* b2FrictionJoint.h */,
-				"02593BB3-C60D-4474-8A1A-413B20B029B0" /* b2GearJoint.cpp */,
-				"6CF49E8E-2943-442D-BE18-B4CFD1923359" /* b2GearJoint.h */,
-				"CD4662AA-29E7-4E5B-A33A-A08C1631C930" /* b2Joint.cpp */,
-				"ABADE214-5D46-4B47-8385-8B3D4A9DFBBB" /* b2Joint.h */,
-				"DFD44677-9670-403E-A98B-8876B72F7AF1" /* b2MotorJoint.cpp */,
-				"BB4FEDC0-EEAB-4538-A84E-948AFDB8244E" /* b2MotorJoint.h */,
-				"BC525F83-D8A8-4FBC-AB54-BBDEB2F9865E" /* b2MouseJoint.cpp */,
-				"EE1D50E1-DEEC-4ECE-838F-F445F515D4E0" /* b2MouseJoint.h */,
-				"06196E63-607D-4D8E-BA0F-44AF3EB77779" /* b2PrismaticJoint.cpp */,
-				"FA3AB0B4-600A-4FF8-AF23-DDC5DA47CAE5" /* b2PrismaticJoint.h */,
-				"4F8BF3D8-F278-47EA-8A62-DFB36DD5B6B8" /* b2PulleyJoint.cpp */,
-				"4CBE4403-B735-4E56-92CA-16DD9E071257" /* b2PulleyJoint.h */,
-				"FBC51CCA-4A1A-4B18-93D2-FFC8BB7486D4" /* b2RevoluteJoint.cpp */,
-				"28A5DDC2-8544-49B7-AB89-5A7EA33453EA" /* b2RevoluteJoint.h */,
-				"12C4D153-1DB8-4A68-8EAA-D94CED8056BE" /* b2RopeJoint.cpp */,
-				"0E3CFB26-CE58-43D8-AF62-419B358013D7" /* b2RopeJoint.h */,
-				"6D24263A-E1D4-4168-9B06-864DB1BBBECF" /* b2WeldJoint.cpp */,
-				"C19896C4-6702-4EEB-A2AC-A7A8FCAD67ED" /* b2WeldJoint.h */,
-				"B6212155-EE4A-452A-AE5A-C0481687A946" /* b2WheelJoint.cpp */,
-				"59FF2D9B-47AB-4CBC-BE2D-2F67B8AC50F5" /* b2WheelJoint.h */,
-			);
-			name = Joints;
-			sourceTree = SOURCE_ROOT;
-		};
-		"40AE70AD-CB4B-4D01-B517-934B0F136B76" /* src */ = {
-			isa = PBXGroup;
-			children = (
-				"02B0164F-7766-4C7C-8C19-DB0971BB8BB2" /* HStack.cpp */,
-				"FCECD878-A5FF-47AA-A99A-97A338C98BFD" /* HStack.h */,
-				"E7A8AC8F-C82D-40C5-8F25-5A4A04AADA76" /* VStack.cpp */,
-				"66206232-0E7C-4674-A78E-478D33A2FD88" /* VStack.h */,
-				"7EA0CF16-1A7E-4F9E-9F7C-DC0FA56529A8" /* marginBand.cpp */,
-				"7FF6435A-AA68-4E85-90C6-8EBBC233C854" /* marginBand.h */,
-				"80FA6190-28A0-4DD2-AF3E-63B065B48DAD" /* ofxFrameOcean.h */,
-			);
-			name = src;
-			path = src/addons/ofxFrameOcean/src;
-			sourceTree = SOURCE_ROOT;
-		};
-		"43672CBB-6797-4C9B-9655-3BBA42921EA1" /* Enhancements */ = {
-			isa = PBXGroup;
-			children = (
-				"7EE68668-4CDB-4E60-8F04-68D021A57547" /* FixedPoint */,
-			);
-			name = Enhancements;
-			sourceTree = SOURCE_ROOT;
-		};
-		"4A12C5C3-3FDD-474A-9C82-2AB879C6CA53" /* ofxFontStash */ = {
-			isa = PBXGroup;
-			children = (
-				"25CC6FB5-39CC-450B-9C65-A0EDDF36F7A9" /* libs */,
-				"EF1E883B-DD17-41F0-88B0-E9DAF07A7C1B" /* src */,
+				"C7276000-6A0C-4A24-92E2-4D75B24A6BA7" /* libs */,
+				"F5801365-65B4-49EC-939A-0EB6F1CB1A4C" /* src */,
 			);
 			name = ofxFontStash;
 			sourceTree = SOURCE_ROOT;
 		};
-		"4ABC40FD-7998-4451-AB3B-831C24D7E289" /* Common */ = {
+		"18146C27-313F-42D9-8FA9-9FF86770C38A" /* typography */ = {
 			isa = PBXGroup;
 			children = (
-				"7E94E542-0A4D-4EBB-9CD8-BB10328636AD" /* b2BlockAllocator.cpp */,
-				"DC86D4D4-EFED-4375-9372-283F070BA157" /* b2BlockAllocator.h */,
-				"7BDB652A-6890-4458-A755-E496737B8F95" /* b2Draw.cpp */,
-				"FC1A25A2-D308-4AF2-86BF-1398660D8DDC" /* b2Draw.h */,
-				"4F825E6D-C57E-4E17-9162-D93464DD7D3F" /* b2FreeList.cpp */,
-				"CAE8A624-FF03-4096-9AB9-4AD951F407B3" /* b2FreeList.h */,
-				"42ECE344-09B3-4BD3-91BC-FE31E4ED9A1B" /* b2GrowableBuffer.h */,
-				"2C644B1C-2B77-4C00-BD59-7AA3A5AE9376" /* b2GrowableStack.h */,
-				"2EDBC6D3-16A9-404A-8EBD-CD033523314B" /* b2IntrusiveList.h */,
-				"3A1D2D72-FD8D-4AB4-A644-EB21D63CBC0F" /* b2Math.cpp */,
-				"E9529CA2-7E12-49B9-90AE-6CCD12C8CF77" /* b2Math.h */,
-				"8D4F7B06-55EE-426C-86E1-D512F43C379F" /* b2Settings.cpp */,
-				"F33E4437-04F6-47F1-B9B7-C387E7A928B5" /* b2Settings.h */,
-				"B11AFC61-9E0C-44BC-B3E4-645E47B7A413" /* b2SlabAllocator.h */,
-				"77BAE2F1-7748-4D05-8DD2-EE77FAF1AF74" /* b2StackAllocator.cpp */,
-				"367C7A81-A5A3-459D-980B-5B0D28D317CC" /* b2StackAllocator.h */,
-				"F49DFF5A-D59F-46C0-B673-0A736959C56E" /* b2Stat.cpp */,
-				"8FF9AC7B-2893-4467-971B-AA16E41ACAF0" /* b2Stat.h */,
-				"0689DB55-8A1E-44CE-9894-6113A73E7883" /* b2Timer.cpp */,
-				"3A5A4581-B9C8-4397-A800-68E66697E888" /* b2Timer.h */,
-				"710C4560-A8B9-4AEB-8B5D-E34A229A462F" /* b2TrackedBlock.cpp */,
-				"82914630-6609-47C5-90EB-6FE7D1AFC687" /* b2TrackedBlock.h */,
+				"95B7920D-04D8-4882-93F5-8C3898BA2422" /* alphaDelta.cpp */,
+				"6AF4000A-3162-44A7-B13D-02E3B76FFC2C" /* alphaDelta.h */,
+				"6EB66255-9113-4DC5-A454-5045F9AE72FA" /* curvePara.cpp */,
+				"53EC3E9E-CF12-4C50-8D64-CA52ABC58829" /* curvePara.h */,
 			);
-			name = Common;
+			name = typography;
+			path = src/modules/visual/typography;
 			sourceTree = SOURCE_ROOT;
 		};
-		"51093758-4F25-4CC3-878A-83FE06C5F8AC" /* ofxBox2d */ = {
+		"27F69462-A2F8-4FED-8EF8-0A94EE35200B" /* libxml */ = {
 			isa = PBXGroup;
 			children = (
-				"EA9807F6-4641-4038-BC37-9B2028AF8B1E" /* libs */,
-				"B25D25C4-4854-4658-A887-F9BFCCEE4720" /* src */,
+				"3991C542-8D77-4017-9234-44379DDB6BE9" /* DOCBparser.h */,
+				"310E868A-DE35-4C6C-A70B-EF16DD32C00A" /* HTMLparser.h */,
+				"70D457FF-AA3E-420B-89A5-313D0FB571CE" /* HTMLtree.h */,
+				"378C46EC-F26C-41F4-AEEC-7BF49C3D82DE" /* SAX.h */,
+				"32AA9FBE-AAF1-472B-80E9-3DECA451DD57" /* SAX2.h */,
+				"05EF4632-7C17-4AFA-A65A-8B53CE96AB71" /* c14n.h */,
+				"F159EA74-3AA7-4897-B834-4D453342946F" /* catalog.h */,
+				"4C392A82-521C-4E70-80E0-D21A4C2D875D" /* chvalid.h */,
+				"34A4766B-52F5-462A-A089-4CE362D2402F" /* debugXML.h */,
+				"47162FD0-1BBB-4FED-903F-29BE393A3BC7" /* dict.h */,
+				"3EDD7156-B3CE-42AC-9A1B-EA47AEDF59E1" /* encoding.h */,
+				"CDD4ABE9-23F9-4909-858E-92ABF411EB35" /* entities.h */,
+				"E62851F9-8A92-4D18-845D-23C15083B9F1" /* globals.h */,
+				"F52AAC7C-908F-4A9E-B2C9-E4A4BC4D04F3" /* hash.h */,
+				"F1B160A7-6567-4891-939D-C4633E47691C" /* list.h */,
+				"9682E53D-58B5-4ABC-9D97-ED5591554733" /* nanoftp.h */,
+				"B07A42E5-C89C-47F0-9B05-7BA79EE364A8" /* nanohttp.h */,
+				"2AB76716-0F5C-4844-9CA6-52A4290CB65D" /* parser.h */,
+				"CEFD8A3E-92E8-4162-81F7-346EE2750D83" /* parserInternals.h */,
+				"93CB1CCA-9498-4C9D-B284-939B7CB3FEB2" /* pattern.h */,
+				"78841F57-094E-4CF8-924A-960AD95F310B" /* relaxng.h */,
+				"F2BA8B2A-1474-4F65-B9E2-FCE88973D99F" /* schemasInternals.h */,
+				"85C0A78C-CDC7-48B7-B85D-5295CE857E00" /* schematron.h */,
+				"780A4FCD-8DB2-4CA0-98B4-8D5F467F2308" /* threads.h */,
+				"6B8D50D8-14F4-402D-ABE4-E09771DB113A" /* tree.h */,
+				"BCF0CD12-3C47-4C24-891B-BA65E4EF9517" /* uri.h */,
+				"C1817983-5864-46CA-B115-41130105EDE4" /* valid.h */,
+				"2568521D-17D8-4C5F-9D52-0776C3FF1AA7" /* xinclude.h */,
+				"B306DEAA-EB26-43F6-A909-66CB87030CCB" /* xlink.h */,
+				"78ED72B8-FEA2-48AD-8272-BF8257A0F1D3" /* xmlIO.h */,
+				"4717DB7C-0531-4016-859B-93EAD6E4F1F7" /* xmlautomata.h */,
+				"B59A8EF6-40F7-42F3-97A7-18F4420B6F04" /* xmlerror.h */,
+				"49E6850B-DEA1-40EF-A173-65BACFF90436" /* xmlexports.h */,
+				"2B9EE4EA-0172-48EE-96E1-DAB9064081B3" /* xmlmemory.h */,
+				"2BD8C882-1AD9-45A5-A754-2AA2074CFB76" /* xmlmodule.h */,
+				"45852D47-F072-4D7E-B02A-1B2BA3AA6818" /* xmlreader.h */,
+				"07640FA8-515D-4553-B34C-95E99E5CB486" /* xmlregexp.h */,
+				"9EA66B1B-A85C-44B1-A93F-5D78E72A5564" /* xmlsave.h */,
+				"8861A71B-6E66-4FF3-9AEE-A56CE5ADE5E4" /* xmlschemas.h */,
+				"B8DBC24E-D1EC-4C1B-9098-E682C81371B5" /* xmlschemastypes.h */,
+				"D29DC1CA-4ED3-4241-B7DD-FC9B60F7B954" /* xmlstring.h */,
+				"C2BC27EE-CB41-40D0-8CBA-0A4533BE1CF6" /* xmlunicode.h */,
+				"C84DDC0F-DB87-4CCC-9D0F-A6AD2C2FDBCB" /* xmlversion.h */,
+				"D3712E2D-5311-4C61-822A-77866A5C6696" /* xmlwriter.h */,
+				"915FE066-9A47-4467-8A07-EF844E408057" /* xpath.h */,
+				"97FEC20C-FC87-49F8-900F-0ECFAE05DF4F" /* xpathInternals.h */,
+				"8E95EACF-68E2-402E-8B86-D4170EC6EA60" /* xpointer.h */,
 			);
-			name = ofxBox2d;
+			name = libxml;
 			sourceTree = SOURCE_ROOT;
 		};
-		"543BCC79-5855-4089-ACFD-1CC66B85E1B2" /* visual */ = {
+		"33064076-A4F3-4042-B31C-D9CF7A3E4857" /* include */ = {
 			isa = PBXGroup;
 			children = (
-				"F7DBCE30-36A6-415C-9272-B0F8EFEF65D0" /* typography */,
+				"5539EC39-1812-4605-81DB-CF40657C480F" /* svgtiny.h */,
 			);
-			name = visual;
-			path = src/modules/visual;
+			name = include;
 			sourceTree = SOURCE_ROOT;
 		};
-		"54C53788-E649-4E9A-9B1E-09943C46DAD0" /* ofxTskokmtFont */ = {
+		"3628D9D1-92FF-44D5-A298-29BCDF6A0A93" /* modules */ = {
 			isa = PBXGroup;
 			children = (
-				"E9296D94-2FAD-48FC-B1B6-5A184EDE77FD" /* src */,
-			);
-			name = ofxTskokmtFont;
-			sourceTree = SOURCE_ROOT;
-		};
-		"57AC7B4A-7B1D-4753-8E27-AD0BD7A30DFE" /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				"281CDD76-1980-47ED-97F8-D30D89A0F665" /* ConvexDecomposition */,
-			);
-			name = Utilities;
-			sourceTree = SOURCE_ROOT;
-		};
-		"59FE8A20-557A-487E-A712-67F10AC41E1F" /* modules */ = {
-			isa = PBXGroup;
-			children = (
-				"D37B074C-E7A6-4F6A-A30B-68D1DDA2685D" /* chrome */,
-				"84A76115-239E-497A-ACC0-BB5E73AD6FFC" /* cover */,
-				"D5A420E9-FDAF-4D31-B8EA-963D5529D80C" /* pixel */,
-				"AE4DFEA3-3F65-4976-A3B6-EAECF6592FFA" /* pressRoom.cpp */,
-				"42EDFCDE-6D3B-47E6-91EF-563A191F7451" /* pressRoom.h */,
-				"8CEEA4CE-A9DA-400C-A853-ED5F294E6016" /* screen */,
-				"543BCC79-5855-4089-ACFD-1CC66B85E1B2" /* visual */,
+				"98CC1421-0E29-443C-B03E-7661CEBE79DF" /* chrome */,
+				"AA6A39EA-CAA4-41F7-BA4B-EDB351E9FBD8" /* cover */,
+				"614E45DF-4ED7-4661-9551-4CEC1276FCFC" /* pixel */,
+				"1FBD02C0-7E63-4585-B5A5-106A17FDA5E3" /* pressRoom.cpp */,
+				"CB293EAA-82BE-4B76-A8EE-08B88839A276" /* pressRoom.h */,
+				"609FE45B-0780-47DC-BF4E-0F97BF05E186" /* screen */,
+				"FC656183-BCAE-4741-80CA-BD018AF35C5D" /* visual */,
 			);
 			name = modules;
 			path = src/modules;
 			sourceTree = SOURCE_ROOT;
 		};
-		"77754AA6-1AE6-41BF-BB9A-CBC4CA35F538" /* src */ = {
+		"55A4324E-DC71-4E92-B704-81265BD6BAE9" /* ofxTskokmtMath */ = {
 			isa = PBXGroup;
 			children = (
-				"982D8C69-014F-4AFE-92C7-A927EFEF1C94" /* ofxSvg.cpp */,
-				"F3B856BC-D8E4-4859-8A3B-E5CCD701F638" /* ofxSvg.h */,
-			);
-			name = src;
-			sourceTree = SOURCE_ROOT;
-		};
-		"7EE68668-4CDB-4E60-8F04-68D021A57547" /* FixedPoint */ = {
-			isa = PBXGroup;
-			children = (
-				"DD1B2975-53BC-495A-B5FA-D93AC649441F" /* Fixed.h */,
-				"8384678E-5B00-4869-8AC7-4082AEEB47F6" /* jtypes.h */,
-			);
-			name = FixedPoint;
-			sourceTree = SOURCE_ROOT;
-		};
-		"8301DABD-252E-4695-A179-B611997FBCFF" /* addons */ = {
-			isa = PBXGroup;
-			children = (
-				"8D69408A-27B6-4CE1-891C-417E33874F47" /* ofxFrameOcean */,
-				"DA6B8D8C-1C57-46E5-991D-D64FCAD10EF6" /* ofxTskokmtMath */,
-				"A006F089-D319-492E-9F1A-3ACE9CB1EE40" /* ofxTskokmtTranslator */,
-			);
-			name = addons;
-			path = src/addons;
-			sourceTree = SOURCE_ROOT;
-		};
-		"84A76115-239E-497A-ACC0-BB5E73AD6FFC" /* cover */ = {
-			isa = PBXGroup;
-			children = (
-				"5115155E-0FF9-4B8C-AABE-B6F6016DD639" /* blackCover.cpp */,
-				"78D07BDD-7780-4F66-9C11-6593D59F1C10" /* blackCover.h */,
-				"62D8F24D-D4A0-47F5-9792-1D3ACB91EF37" /* flashCover.cpp */,
-				"CB1BDE0C-40C5-41D2-B57B-C7FB161165F7" /* flashCover.h */,
-				"88A3F251-171B-40CC-B2B2-2D9329352381" /* oddCover.cpp */,
-				"5236A76A-A912-4AD9-83E9-5A3735DCCD18" /* oddCover.h */,
-				"A86F1402-D3C8-4016-91AC-2820C5A9E4ED" /* pikaCover.cpp */,
-				"A5FCF7B7-0ADB-46CB-A65E-61BFFECD9B46" /* pikaCover.h */,
-			);
-			name = cover;
-			path = src/modules/cover;
-			sourceTree = SOURCE_ROOT;
-		};
-		"88E60B0A-7E07-420E-A21C-B539257A2670" /* libxml */ = {
-			isa = PBXGroup;
-			children = (
-				"D675E408-4E2D-48D8-8DBD-E41A26B3420C" /* DOCBparser.h */,
-				"B071EDCD-CD50-491B-8E2E-6CDA57F4BCA5" /* HTMLparser.h */,
-				"4460BD4C-A4E5-4B82-8058-07E4F595F676" /* HTMLtree.h */,
-				"42AAD295-E905-42E5-9832-2C72F56D5711" /* SAX.h */,
-				"E8AA55B4-61D5-47D0-B95C-ADE7FFAAB1BA" /* SAX2.h */,
-				"41B1287D-E641-48AB-B660-9168D43706D1" /* c14n.h */,
-				"3BA8E6B9-1967-4757-AA74-A8BD0AB20E8C" /* catalog.h */,
-				"06038A8D-6E63-4924-8608-485B2B9F50B7" /* chvalid.h */,
-				"F4059F7C-9E56-4580-B306-C7BC697081F4" /* debugXML.h */,
-				"2F6F561E-F71D-4A5C-B261-F31410434766" /* dict.h */,
-				"2C77B114-5F72-437F-9950-B1F7F3972481" /* encoding.h */,
-				"925DC279-006E-476D-B751-E055325AF0F9" /* entities.h */,
-				"F97D315B-3B65-4F29-AB9A-9EDB4A9611D6" /* globals.h */,
-				"95B7DA9D-970B-4649-B4A5-A45E098DEA4A" /* hash.h */,
-				"46713B17-5551-4756-A399-5618CDE8739B" /* list.h */,
-				"A3CDFB32-4F99-40BF-AA4D-D60C2B84B0F6" /* nanoftp.h */,
-				"6A79FF47-B1DD-404A-AD0B-BA4FA7795EA3" /* nanohttp.h */,
-				"D8D772A9-1806-49FD-8E73-21B34BDD768B" /* parser.h */,
-				"33C34373-6168-4109-B38A-0AA9E81F4F79" /* parserInternals.h */,
-				"1532E5AE-51C3-4AF3-BB71-6E7909F4BB67" /* pattern.h */,
-				"9B5FB678-9B41-4427-83A0-1D2C2B029F63" /* relaxng.h */,
-				"7ED65F2A-BE97-4053-9FF9-D1257B8E3E79" /* schemasInternals.h */,
-				"277ABE3B-0305-418B-AF32-2326528E85D0" /* schematron.h */,
-				"82738435-6982-45A6-B9DE-EF7EBFDDC884" /* threads.h */,
-				"0BF45200-AC38-4A60-91B5-039A1C88002D" /* tree.h */,
-				"3DDA0227-A8C6-4CC9-A4F7-5C32945FDD0D" /* uri.h */,
-				"8008A75B-C903-4FE0-971F-49AE6DE3D7A7" /* valid.h */,
-				"1F0CDDDE-7BED-4E48-BF7B-A7789B7EAC79" /* xinclude.h */,
-				"D6882468-E891-49FD-A9F5-AD7CB387D860" /* xlink.h */,
-				"B5547090-2B8E-4D9F-8FBF-0CDD3689CE79" /* xmlIO.h */,
-				"5E1DA708-8B5C-4803-82F3-FB3B93E1E664" /* xmlautomata.h */,
-				"E3AB9F70-66F8-4A72-86CE-5EBDAE9A672D" /* xmlerror.h */,
-				"8F7D6882-B47D-4237-ADA7-D35D0C6887E1" /* xmlexports.h */,
-				"30AB080D-690D-4076-B9DC-CEA7A09854B0" /* xmlmemory.h */,
-				"D3FB1CD3-D10C-4E24-9C3D-DCDECE6F2435" /* xmlmodule.h */,
-				"B288473A-5E56-4AF0-AB55-9602501D8FEF" /* xmlreader.h */,
-				"CB9205BB-B511-4E73-BAF1-5A501A549DD3" /* xmlregexp.h */,
-				"F98493B3-84CC-47E6-A27F-942CBE9D3456" /* xmlsave.h */,
-				"8A2E6654-25FC-4590-BE23-37825D298E0A" /* xmlschemas.h */,
-				"D706D28D-669E-4722-A0F1-0F4879C84ED7" /* xmlschemastypes.h */,
-				"A31A1C95-F6EC-49D4-9A1D-B483B655CC88" /* xmlstring.h */,
-				"0C13806D-68C0-4C4B-9526-1D5D4F28610F" /* xmlunicode.h */,
-				"60CC3B98-F9FC-41EC-88F1-4A0842CF8C73" /* xmlversion.h */,
-				"9BFBEC52-4842-4BCC-9D81-4BFC3C6C7EEE" /* xmlwriter.h */,
-				"73424444-F023-493B-88BE-372C4DD27752" /* xpath.h */,
-				"4817DAFB-53D2-4640-A064-361ED7D45196" /* xpathInternals.h */,
-				"7A3FFE14-8EC9-40FA-A8CA-0AFCA9EAEFD7" /* xpointer.h */,
-			);
-			name = libxml;
-			sourceTree = SOURCE_ROOT;
-		};
-		"88EBBF89-0BA0-458B-9672-275E1D91998E" /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				"1752F2ED-4544-4658-835B-25F9F21CBF52" /* libxml2 */,
-				"E888432D-5C76-4872-95D9-23459B3FB24B" /* svgtiny */,
-			);
-			name = libs;
-			sourceTree = SOURCE_ROOT;
-		};
-		"8CEEA4CE-A9DA-400C-A853-ED5F294E6016" /* screen */ = {
-			isa = PBXGroup;
-			children = (
-				"2CE7677E-16DC-449C-874F-F91100BB833F" /* emergeScreen.cpp */,
-				"03F82EAF-AE52-4029-92ED-53B60CBA2C5C" /* emergeScreen.h */,
-				"2542DE02-6131-46C1-8DAA-0FA8E65BA37E" /* fragScreen.cpp */,
-				"443332D4-EB22-4305-AE46-43BC79E987D1" /* fragScreen.h */,
-				"1E370B1C-E400-49E0-81A1-7DB2336F460B" /* pushGrid.cpp */,
-				"79C959AB-1337-45AB-A9D9-C810FEF88AC3" /* pushGrid.h */,
-				"F26444F3-7E60-4BEF-9181-FD3EE28605AE" /* slideGrid.cpp */,
-				"3E31F884-ABC1-4FD2-89D9-D0D6166CD11D" /* slideGrid.h */,
-				"865CDDC8-383D-4BFD-8D5D-18C159291CAA" /* splitGrid.cpp */,
-				"3E20C933-1082-4755-9564-F1B12A6033A3" /* splitGrid.h */,
-				"09EB7AD1-9AA7-41F6-9E8F-0600CAA5AC22" /* vipGrid.cpp */,
-				"E7755A79-9C30-4511-8740-1702E996B23B" /* vipGrid.h */,
-			);
-			name = screen;
-			path = src/modules/screen;
-			sourceTree = SOURCE_ROOT;
-		};
-		"8D69408A-27B6-4CE1-891C-417E33874F47" /* ofxFrameOcean */ = {
-			isa = PBXGroup;
-			children = (
-				"40AE70AD-CB4B-4D01-B517-934B0F136B76" /* src */,
-			);
-			name = ofxFrameOcean;
-			path = src/addons/ofxFrameOcean;
-			sourceTree = SOURCE_ROOT;
-		};
-		"91EC5754-BBA1-4705-A1D2-64CD9D473677" /* Particle */ = {
-			isa = PBXGroup;
-			children = (
-				"9712C043-5D4B-4356-9FC2-51EAF881ED84" /* b2Particle.cpp */,
-				"9245BF29-8F73-4928-ADD3-47A3ED7342F3" /* b2Particle.h */,
-				"5B3E970E-258A-45F0-9188-A174DC1F8549" /* b2ParticleAssembly.cpp */,
-				"EC449F9D-D9F9-4E5D-8C85-60F7CDBB8B58" /* b2ParticleAssembly.h */,
-				"86AA64D7-C808-49D9-BF88-14064F018351" /* b2ParticleGroup.cpp */,
-				"35087884-9AAF-40B3-A3A4-8E33580E1347" /* b2ParticleGroup.h */,
-				"3454AECD-9117-4B64-ABDB-1FE713CDD24F" /* b2ParticleSystem.cpp */,
-				"BF649D30-9B55-46BA-BF67-E5DA31A1D271" /* b2ParticleSystem.h */,
-				"7B083DCB-14EE-4EC8-85A0-A99EE5EA11F2" /* b2StackQueue.h */,
-				"3A38F5BE-A50A-42FE-854C-6BBBD0C15DC1" /* b2VoronoiDiagram.cpp */,
-				"EFD54ED4-EE86-4BAB-B053-EBB0396B7713" /* b2VoronoiDiagram.h */,
-			);
-			name = Particle;
-			sourceTree = SOURCE_ROOT;
-		};
-		"A006F089-D319-492E-9F1A-3ACE9CB1EE40" /* ofxTskokmtTranslator */ = {
-			isa = PBXGroup;
-			children = (
-				"EA466FA8-A5C4-466B-B82A-98F9DA7505F2" /* src */,
-			);
-			name = ofxTskokmtTranslator;
-			path = src/addons/ofxTskokmtTranslator;
-			sourceTree = SOURCE_ROOT;
-		};
-		"A6B7CAE3-6EB2-4643-9764-5BF19273A59D" /* Collision */ = {
-			isa = PBXGroup;
-			children = (
-				"34AECCF6-D5E0-4C95-A59B-768B887D63A0" /* Shapes */,
-				"2EE84C2C-76C4-49BF-8DDB-E3E8593C3886" /* b2BroadPhase.cpp */,
-				"503042C3-744A-4616-B446-9000A146C9FA" /* b2BroadPhase.h */,
-				"6B75D2D6-38D7-4A57-9365-85B1D852B260" /* b2CollideCircle.cpp */,
-				"D6316A57-9D5B-4C9D-AD83-E21D68011160" /* b2CollideEdge.cpp */,
-				"6E95D4C8-914A-4782-B2F1-9C36295773C7" /* b2CollidePolygon.cpp */,
-				"01BD5EB3-F677-4A2C-8090-430C099E4B53" /* b2Collision.cpp */,
-				"A2A5C238-E06E-4842-B8EA-8329E5DEB157" /* b2Collision.h */,
-				"77986D4A-72B5-46EE-B084-1E13358F85A7" /* b2Distance.cpp */,
-				"9178E563-31AC-4831-A3FF-29032E08327F" /* b2Distance.h */,
-				"D23C7006-9B87-4295-81EF-66D21EEC5475" /* b2DynamicTree.cpp */,
-				"7C289C5D-7692-41C3-AA18-3458D0D26766" /* b2DynamicTree.h */,
-				"BDF5E68F-9405-4CFA-91EF-183635BC39AA" /* b2TimeOfImpact.cpp */,
-				"10D0CB1F-FF4B-4ACE-9202-F9D1B281061C" /* b2TimeOfImpact.h */,
-			);
-			name = Collision;
-			sourceTree = SOURCE_ROOT;
-		};
-		"A7031C4F-2F46-4AAD-B222-751476F87961" /* Dynamics */ = {
-			isa = PBXGroup;
-			children = (
-				"BC560BC0-876B-4B5A-9C8B-37F8F50F1817" /* Contacts */,
-				"3DB49E75-2885-4E7D-99CF-4AA9E1293BB5" /* Joints */,
-				"EDC84CE3-283E-4512-A0A2-38741172A8C9" /* b2Body.cpp */,
-				"C5BCF9CC-887E-4D78-9350-6DB0FA92DAB0" /* b2Body.h */,
-				"EE19EE3F-6FDB-4EF1-AE77-480E2CB242A1" /* b2ContactManager.cpp */,
-				"83FDA2FE-E770-4908-9E6E-A4CC96168F67" /* b2ContactManager.h */,
-				"C0CE0CAC-434B-43A1-80F2-61C053ACD320" /* b2Fixture.cpp */,
-				"AB7FBFB0-5F54-497E-954C-07FB021CCA4D" /* b2Fixture.h */,
-				"E93361F6-928E-4D55-87B8-C5770C1B92FB" /* b2Island.cpp */,
-				"72977CB5-7B11-4032-B9D5-3021B1657599" /* b2Island.h */,
-				"7A0425A3-0DD4-4758-BD1E-15B3D377ED6F" /* b2TimeStep.h */,
-				"8DC2AF7C-6958-4B7B-BAEA-720840AA229B" /* b2World.cpp */,
-				"22ADB680-B6D4-490B-8747-0F6A502800E8" /* b2World.h */,
-				"B17EE95D-CBA4-4C0D-83E8-F5F7B1FB348E" /* b2WorldCallbacks.cpp */,
-				"8763A222-23E4-4D0E-ACB6-A5520B5006EC" /* b2WorldCallbacks.h */,
-			);
-			name = Dynamics;
-			sourceTree = SOURCE_ROOT;
-		};
-		"B25D25C4-4854-4658-A887-F9BFCCEE4720" /* src */ = {
-			isa = PBXGroup;
-			children = (
-				"056BF47E-C885-46E3-9930-3F4F40655C77" /* ofxBox2d.cpp */,
-				"8ECF86CE-3442-4B67-BE84-F34750859F7B" /* ofxBox2d.h */,
-				"4DEF971C-9614-430E-B00E-A60F65D68FC1" /* ofxBox2dBaseShape.cpp */,
-				"58EA7EC0-972E-4B1D-90C0-89EFAEA46BBF" /* ofxBox2dBaseShape.h */,
-				"A0C1A71E-DC89-41AB-82D3-EFFA98B18DCB" /* ofxBox2dCircle.cpp */,
-				"93C6E2CD-C28D-4745-975B-653619299E2B" /* ofxBox2dCircle.h */,
-				"E4D2F170-14BD-4B06-B949-473336755DD5" /* ofxBox2dContactListener.h */,
-				"9C1EA929-9404-440E-890D-80B6D1C0F923" /* ofxBox2dConvexPoly.cpp */,
-				"9B61D66B-3A38-47D2-B682-1C689D18C1E4" /* ofxBox2dConvexPoly.h */,
-				"98D528B8-6B69-43ED-9DA4-1D155351BD91" /* ofxBox2dEdge.cpp */,
-				"B3F7DF82-E8F8-4637-B591-5700F1C2D521" /* ofxBox2dEdge.h */,
-				"78CD76A2-A9B8-4401-8581-BED5AB64ECB0" /* ofxBox2dJoint.cpp */,
-				"829D5ED1-6CE2-40BE-8F25-5AB178D89245" /* ofxBox2dJoint.h */,
-				"9F09D3AC-B04C-4F54-AA43-6CFEB00C75BA" /* ofxBox2dParticleSystem.cpp */,
-				"9C1C9AA3-D786-4ECD-BD3B-7E3E045EB9A0" /* ofxBox2dParticleSystem.h */,
-				"8679FB34-A722-4239-9EC4-C77F5E4B03B2" /* ofxBox2dPolygon.cpp */,
-				"2E2E3294-B322-4C94-B280-C2A88A793A4F" /* ofxBox2dPolygon.h */,
-				"2E8C4D5C-0561-478E-9693-262C554086DF" /* ofxBox2dPolygonUtils.cpp */,
-				"1B59DFC6-4B11-444C-AE63-A73C69E646D4" /* ofxBox2dPolygonUtils.h */,
-				"FA152B0D-7E38-4C4F-A11D-6B0A8839C298" /* ofxBox2dRect.cpp */,
-				"282920FC-26EC-45EC-BF50-A2ED1808EEC9" /* ofxBox2dRect.h */,
-				"4DDB397B-8BFA-4724-B9CB-E2C83C1C4B76" /* ofxBox2dRender.cpp */,
-				"F0FA8D71-D350-45ED-BE7D-860890FF052B" /* ofxBox2dRender.h */,
-				"B3728C3F-B41F-4C79-8360-67BB6DA5DA68" /* ofxBox2dUtils.cpp */,
-				"053C7DE7-3A51-4D17-87C5-3EA416869E29" /* ofxBox2dUtils.h */,
-			);
-			name = src;
-			sourceTree = SOURCE_ROOT;
-		};
-		BB4B014C10F69532006C3DED /* addons */ = {
-			isa = PBXGroup;
-			children = (
-				"51093758-4F25-4CC3-878A-83FE06C5F8AC" /* ofxBox2d */,
-				"4A12C5C3-3FDD-474A-9C82-2AB879C6CA53" /* ofxFontStash */,
-				"DA56C108-06CF-436A-9096-11876DA00BCC" /* ofxSvg */,
-				"54C53788-E649-4E9A-9B1E-09943C46DAD0" /* ofxTskokmtFont */,
-			);
-			name = addons;
-			path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons;
-			sourceTree = "<group>";
-		};
-		"BC560BC0-876B-4B5A-9C8B-37F8F50F1817" /* Contacts */ = {
-			isa = PBXGroup;
-			children = (
-				"621D847B-2D0C-4DC6-B661-96EA2A00F33D" /* b2ChainAndCircleContact.cpp */,
-				"D414F3FD-EE9A-4E2B-9D45-BDDBD869F696" /* b2ChainAndCircleContact.h */,
-				"239F4558-731D-4506-88F9-F45D3F89FBA9" /* b2ChainAndPolygonContact.cpp */,
-				"FABCEAA8-7B42-41D9-A4E4-51AFFEAC0687" /* b2ChainAndPolygonContact.h */,
-				"45D3324A-1496-4381-80CC-C23FC0C9057F" /* b2CircleContact.cpp */,
-				"295A7408-E3B8-4B37-85BC-5A0F0168DDE0" /* b2CircleContact.h */,
-				"2812B665-6D51-4F44-A913-CB966C76E415" /* b2Contact.cpp */,
-				"AC48A7BF-5E14-4574-B458-3808585E08C4" /* b2Contact.h */,
-				"0D0F07CD-6B0E-4924-B706-3B44AA5DE830" /* b2ContactSolver.cpp */,
-				"3AE67402-C7BB-48DD-A069-254B62D99FC4" /* b2ContactSolver.h */,
-				"C697DDE2-78E6-443F-B5FE-83D84D18EC2D" /* b2EdgeAndCircleContact.cpp */,
-				"8B2B7789-3691-4C35-8869-265C09EF78DA" /* b2EdgeAndCircleContact.h */,
-				"2306ABFB-3DA3-4537-95DA-9328B6F2FD05" /* b2EdgeAndPolygonContact.cpp */,
-				"8939F2B2-33BC-41A3-9BA4-83697CB4E8D9" /* b2EdgeAndPolygonContact.h */,
-				"45F9DBA0-11B0-468C-A1DA-2CD1FB3BDD8A" /* b2PolygonAndCircleContact.cpp */,
-				"D055EA8A-23FE-46D5-9688-1F86ACF14550" /* b2PolygonAndCircleContact.h */,
-				"112BC3B4-0249-4471-A8C0-F7375721A390" /* b2PolygonContact.cpp */,
-				"7CCE6C6F-1A5F-43DB-AD47-FB4D60E0A7DA" /* b2PolygonContact.h */,
-			);
-			name = Contacts;
-			sourceTree = SOURCE_ROOT;
-		};
-		"C0628B87-A1B3-4ED6-8DD3-A09AFC17EBA8" /* src */ = {
-			isa = PBXGroup;
-			children = (
-				"35F19F16-45AC-4D42-A961-8E3E13F89883" /* fontstash.c */,
-				"A57F51DD-C281-4ADE-ABAF-E39388C9529A" /* fontstash.h */,
-				"5A95A3F7-A2C4-4211-BA14-A3B6F381629F" /* stb_truetype.c */,
-				"4E216CD2-AAE6-46FD-95EA-D25A13802F09" /* stb_truetype.h */,
-			);
-			name = src;
-			sourceTree = SOURCE_ROOT;
-		};
-		"D37B074C-E7A6-4F6A-A30B-68D1DDA2685D" /* chrome */ = {
-			isa = PBXGroup;
-			children = (
-				"91000080-DD95-4D42-BE27-9347B670040B" /* colorWorld.cpp */,
-				"70101295-4935-4FE3-AFFB-2D598AB5E96A" /* colorWorld.h */,
-				"6043AD61-E8E5-46AF-B636-77BEC14082F8" /* twoTone.cpp */,
-				"BADB35FB-3A26-4D53-BC6A-33C09BA69C42" /* twoTone.h */,
-			);
-			name = chrome;
-			path = src/modules/chrome;
-			sourceTree = SOURCE_ROOT;
-		};
-		"D5A420E9-FDAF-4D31-B8EA-963D5529D80C" /* pixel */ = {
-			isa = PBXGroup;
-			children = (
-				"FBE7F9AA-3EB5-4B84-9A39-38B95DD62648" /* boredomWindow.cpp */,
-				"8EE3A92D-FDCB-4D11-8D39-8BBA344A453D" /* boredomWindow.h */,
-				"1F60DAE0-D0B8-42FC-A7B3-43B0D65B2BB4" /* criticalWindow.cpp */,
-				"D2BC3D8E-F097-4709-8CE2-A9E891EC035A" /* criticalWindow.h */,
-				"5F318EA9-30BE-496C-9DA4-8B2044CE855E" /* fromDip.cpp */,
-				"C1D02DB6-B4A7-44AC-BD8B-937D5B95467D" /* fromDip.h */,
-				"D32D17CA-AF8F-4BF9-81BC-B288441C2627" /* noizArc.cpp */,
-				"716A0F4A-873B-4F9A-A805-8439112FFB90" /* noizArc.h */,
-				"953456AC-5725-41EE-AAC0-4ED576C4E64B" /* radioWindow.cpp */,
-				"DE673919-9BFE-4F1A-BDFD-07058727CF73" /* radioWindow.h */,
-				"5F508A26-969E-41B1-8886-5B3A336306BB" /* rapFlee.cpp */,
-				"C88F7FD3-0026-48EF-B2EA-051E9D1C5E53" /* rapFlee.h */,
-				"EB7464BE-A011-44A0-935E-FD2DE5F4C2E8" /* rollingRoll.cpp */,
-				"91529072-D572-4C8C-9B83-D62296F52196" /* rollingRoll.h */,
-				"FA866B05-91B8-4647-80A9-9D0F836B167C" /* slitShut.cpp */,
-				"292D8611-BB63-45BA-B99F-B01B1302401C" /* slitShut.h */,
-				"DA74AC3C-2EB8-45F7-A18D-204F7027EE57" /* synMeme.cpp */,
-				"8C8CBD5E-E807-4896-9176-9B589B6E3506" /* synMeme.h */,
-				"D3250BCC-AA4F-4D9F-BCC1-428C15D354EC" /* zigZig.cpp */,
-				"38FDB18C-D0D8-492A-BE94-240A55096398" /* zigZig.h */,
-			);
-			name = pixel;
-			path = src/modules/pixel;
-			sourceTree = SOURCE_ROOT;
-		};
-		"DA56C108-06CF-436A-9096-11876DA00BCC" /* ofxSvg */ = {
-			isa = PBXGroup;
-			children = (
-				"88EBBF89-0BA0-458B-9672-275E1D91998E" /* libs */,
-				"77754AA6-1AE6-41BF-BB9A-CBC4CA35F538" /* src */,
-			);
-			name = ofxSvg;
-			sourceTree = SOURCE_ROOT;
-		};
-		"DA6B8D8C-1C57-46E5-991D-D64FCAD10EF6" /* ofxTskokmtMath */ = {
-			isa = PBXGroup;
-			children = (
-				"34D5AD15-9E90-4742-AFBD-8A08BB3091C9" /* src */,
+				"FABD545E-7CCA-4498-8B16-4920088C7BEC" /* src */,
 			);
 			name = ofxTskokmtMath;
 			path = src/addons/ofxTskokmtMath;
 			sourceTree = SOURCE_ROOT;
 		};
-		"E3C96F56-1BB5-4079-BE5F-21873F86AE07" /* fontstash */ = {
+		"5AE5578C-2B46-4F43-8D3D-39F1248F06FA" /* src */ = {
 			isa = PBXGroup;
 			children = (
-				"C0628B87-A1B3-4ED6-8DD3-A09AFC17EBA8" /* src */,
+				"CA54D0AB-5591-409A-BCC7-0E46E5B167CD" /* HStack.cpp */,
+				"94BD829F-53E4-449F-9E92-053CE13B9E78" /* HStack.h */,
+				"996A79D9-0482-4E4D-8F3E-B58DD35ECAA5" /* VStack.cpp */,
+				"069FB968-4B64-4FFF-97E7-384344452C55" /* VStack.h */,
+				"9D36898F-BB52-4C9D-AFE1-5803BCFD04AB" /* marginBand.cpp */,
+				"3972A3CA-AAC8-48BA-A30B-1B1154AC1F50" /* marginBand.h */,
+				"0E811D0D-D42F-4FDD-B3BB-6A2A66A53DD8" /* ofxFrameOcean.h */,
+			);
+			name = src;
+			path = src/addons/ofxFrameOcean/src;
+			sourceTree = SOURCE_ROOT;
+		};
+		"609FE45B-0780-47DC-BF4E-0F97BF05E186" /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				"711CE7EE-5868-419A-AEFE-F121AD89D3F8" /* emergeScreen.cpp */,
+				"97BDFEF4-03DC-417E-A463-C21613B8107A" /* emergeScreen.h */,
+				"4376255B-E00A-4BF0-8B34-08908851DB89" /* fragScreen.cpp */,
+				"B9E4557A-3FC5-4B6C-90F4-B693C4C0CBBB" /* fragScreen.h */,
+				"C5030843-CBF0-463C-99C7-CCA474F48B96" /* pushGrid.cpp */,
+				"6CD72F32-9F4F-4BEB-A39C-12486E18DDEC" /* pushGrid.h */,
+				"E715118A-D2A7-4F8F-96C3-521460F2D45C" /* slideGrid.cpp */,
+				"F40F0334-56C1-4B4E-AAE0-1196520D0A28" /* slideGrid.h */,
+				"369ED48D-A3FB-43D6-BE55-08CE80A40C1B" /* splitGrid.cpp */,
+				"DE841940-7FDE-4735-B382-2E95F0D883B5" /* splitGrid.h */,
+				"AF622F83-A498-4EB5-AF82-DD9036DE3551" /* vipGrid.cpp */,
+				"3BCD31B5-A734-46F9-A67F-D71581A0BFD9" /* vipGrid.h */,
+			);
+			name = screen;
+			path = src/modules/screen;
+			sourceTree = SOURCE_ROOT;
+		};
+		"614E45DF-4ED7-4661-9551-4CEC1276FCFC" /* pixel */ = {
+			isa = PBXGroup;
+			children = (
+				"DE87AE43-6DBA-45FA-8A6E-B7908225DDAB" /* boredomWindow.cpp */,
+				"659CA1DA-354F-4058-89E1-BB32441CC322" /* boredomWindow.h */,
+				"223F70CC-CD70-4EB4-A196-80AFD9BDB7D7" /* criticalWindow.cpp */,
+				"80434594-38DB-438F-81E7-B03DFFDE7284" /* criticalWindow.h */,
+				"2A84BE77-4EDD-4D05-B651-51FB180E37A9" /* fromDip.cpp */,
+				"B6DA2995-74FF-40F0-8568-3AD6E4AEA79C" /* fromDip.h */,
+				"2C399568-F807-4EBA-901B-02ED8F24D448" /* noizArc.cpp */,
+				"317F08F0-F4EE-4DA5-A88B-687FEE82E2B4" /* noizArc.h */,
+				"C471BF35-3763-4EE0-9C45-24406AA30854" /* radioWindow.cpp */,
+				"C268A719-44FE-44A7-8074-11CC672CD88A" /* radioWindow.h */,
+				"97F5A95D-1863-4E73-9FC0-E5EF0031A4FF" /* rapFlee.cpp */,
+				"7E5F89C1-DF39-480C-B529-B04BF46B40FA" /* rapFlee.h */,
+				"04E4AF53-E058-449E-85BE-0FCC5EAE87C2" /* rollingRoll.cpp */,
+				"EA017FAA-0ECA-4A15-AAC9-FE6A993EF5E0" /* rollingRoll.h */,
+				"992E31D0-9FFB-409E-A374-F0729C390E78" /* slitShut.cpp */,
+				"B37EC473-598D-4BE2-B4BD-A875A0618824" /* slitShut.h */,
+				"28B4274F-9765-4F27-AA6E-945D53F18F29" /* synMeme.cpp */,
+				"5ECB8515-5C3C-4D71-970F-EB6BC04A7346" /* synMeme.h */,
+				"4F321549-5320-464C-ABBA-866631EDD53C" /* zigZig.cpp */,
+				"E0A1A1BB-950F-42CE-B635-D219167CEB50" /* zigZig.h */,
+			);
+			name = pixel;
+			path = src/modules/pixel;
+			sourceTree = SOURCE_ROOT;
+		};
+		"6BB8F66A-29BA-4954-9888-F00C851EDDC5" /* ofxTskokmtFont */ = {
+			isa = PBXGroup;
+			children = (
+				"02B5480F-A7DA-4731-9E3E-F0A6EC7EC870" /* src */,
+			);
+			name = ofxTskokmtFont;
+			path = src/addons/ofxTskokmtFont;
+			sourceTree = SOURCE_ROOT;
+		};
+		"7A0C0125-7EE7-41A9-A02D-F35F9887831E" /* libxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				"86ED9825-D6C8-4F8C-8C4D-9F986A6655E0" /* include */,
+			);
+			name = libxml2;
+			sourceTree = SOURCE_ROOT;
+		};
+		"86ED9825-D6C8-4F8C-8C4D-9F986A6655E0" /* include */ = {
+			isa = PBXGroup;
+			children = (
+				"27F69462-A2F8-4FED-8EF8-0A94EE35200B" /* libxml */,
+			);
+			name = include;
+			sourceTree = SOURCE_ROOT;
+		};
+		"95780D2A-E7DD-4FCE-88D8-0E1EBB32EF0A" /* svgtiny */ = {
+			isa = PBXGroup;
+			children = (
+				"33064076-A4F3-4042-B31C-D9CF7A3E4857" /* include */,
+			);
+			name = svgtiny;
+			sourceTree = SOURCE_ROOT;
+		};
+		"98CC1421-0E29-443C-B03E-7661CEBE79DF" /* chrome */ = {
+			isa = PBXGroup;
+			children = (
+				"65A6BAF9-1F20-4A1B-9658-EAF528804B64" /* colorWorld.cpp */,
+				"A09591CC-9B9C-4C81-8242-A91895FB093A" /* colorWorld.h */,
+				"C2D4EC92-68F9-4708-8AB5-FBB71C1FCEB7" /* twoTone.cpp */,
+				"7C48A0A5-A670-4455-98C3-EDA8EBC06F63" /* twoTone.h */,
+			);
+			name = chrome;
+			path = src/modules/chrome;
+			sourceTree = SOURCE_ROOT;
+		};
+		"9A82F90F-7BD4-442B-94AF-510BE8D72443" /* ofxFrameOcean */ = {
+			isa = PBXGroup;
+			children = (
+				"5AE5578C-2B46-4F43-8D3D-39F1248F06FA" /* src */,
+			);
+			name = ofxFrameOcean;
+			path = src/addons/ofxFrameOcean;
+			sourceTree = SOURCE_ROOT;
+		};
+		"9ECD9A92-B01C-4801-8D3F-38C94CAC212B" /* src */ = {
+			isa = PBXGroup;
+			children = (
+				"3B25A4AA-B4A3-46CD-A046-A20A649AC22B" /* ofxSvg.cpp */,
+				"D353462A-C606-4C14-A227-FEF7D45CDEEA" /* ofxSvg.h */,
+			);
+			name = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		"AA6A39EA-CAA4-41F7-BA4B-EDB351E9FBD8" /* cover */ = {
+			isa = PBXGroup;
+			children = (
+				"C6ECB506-3C09-485A-B14B-B0B242D8F65E" /* blackCover.cpp */,
+				"82593E7D-5C64-44A0-8A4E-F2854A398CB9" /* blackCover.h */,
+				"68E39800-A830-41D6-9D93-C435348E6861" /* flashCover.cpp */,
+				"03607298-C227-44F8-BD7D-7D16F0CC6BCE" /* flashCover.h */,
+				"65254715-2571-494A-BC7E-2F3022B19AEC" /* oddCover.cpp */,
+				"0C1F8F2E-BFFB-4F81-9B6F-8E9ED0D6B6AD" /* oddCover.h */,
+				"4471BA85-E346-41C0-9F40-453C1563FD12" /* pikaCover.cpp */,
+				"413C51C1-61E6-4ACC-80B5-291AC06595EB" /* pikaCover.h */,
+			);
+			name = cover;
+			path = src/modules/cover;
+			sourceTree = SOURCE_ROOT;
+		};
+		"AE79B23F-C5A5-470A-B203-6AAF63E868D2" /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				"9A82F90F-7BD4-442B-94AF-510BE8D72443" /* ofxFrameOcean */,
+				"6BB8F66A-29BA-4954-9888-F00C851EDDC5" /* ofxTskokmtFont */,
+				"55A4324E-DC71-4E92-B704-81265BD6BAE9" /* ofxTskokmtMath */,
+				"CD29A43F-FE18-4ED2-AC0E-D92BBC9A7B3E" /* ofxTskokmtTranslator */,
+			);
+			name = addons;
+			path = src/addons;
+			sourceTree = SOURCE_ROOT;
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				"10E19544-71E7-4E01-81A5-EC973180ECEC" /* ofxFontStash */,
+				"C1093218-2FED-4FF1-8D07-CE4593A3DC56" /* ofxSvg */,
+			);
+			name = addons;
+			path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons;
+			sourceTree = "<group>";
+		};
+		"BD21816D-AA0A-45AB-8A38-FF8A661BE61F" /* fontstash */ = {
+			isa = PBXGroup;
+			children = (
+				"ED8CAA0F-9E00-4E8D-A081-ADB78806D6A2" /* src */,
 			);
 			name = fontstash;
+			sourceTree = SOURCE_ROOT;
+		};
+		"C1093218-2FED-4FF1-8D07-CE4593A3DC56" /* ofxSvg */ = {
+			isa = PBXGroup;
+			children = (
+				"F77A5D29-BE0C-4CB5-B31D-B5AAE672EE7C" /* libs */,
+				"9ECD9A92-B01C-4801-8D3F-38C94CAC212B" /* src */,
+			);
+			name = ofxSvg;
+			sourceTree = SOURCE_ROOT;
+		};
+		"C7276000-6A0C-4A24-92E2-4D75B24A6BA7" /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				"BD21816D-AA0A-45AB-8A38-FF8A661BE61F" /* fontstash */,
+			);
+			name = libs;
+			sourceTree = SOURCE_ROOT;
+		};
+		"CD29A43F-FE18-4ED2-AC0E-D92BBC9A7B3E" /* ofxTskokmtTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				"DC145A13-9D61-405C-8418-10D87C272C09" /* src */,
+			);
+			name = ofxTskokmtTranslator;
+			path = src/addons/ofxTskokmtTranslator;
+			sourceTree = SOURCE_ROOT;
+		};
+		"DC145A13-9D61-405C-8418-10D87C272C09" /* src */ = {
+			isa = PBXGroup;
+			children = (
+				"07835BB1-1EE3-4FFE-9934-E7ECBD8ED449" /* ofxTskokmtTranslator.cpp */,
+				"833B5C29-4AD1-4BF9-9DCA-3080FC02A614" /* ofxTskokmtTranslator.h */,
+			);
+			name = src;
+			path = src/addons/ofxTskokmtTranslator/src;
 			sourceTree = SOURCE_ROOT;
 		};
 		E4B69B4A0A3A1720003C02F2 = {
@@ -1054,82 +561,64 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-				"158238D7-B2F6-4070-9BDB-EED5216FBB3F" /* objectOS.cpp */,
-				"DFE726B4-9F08-4D2B-9070-86A7EC4D11A2" /* objectOS.h */,
-				"239C8CD3-EF59-4532-BFBC-8415AE51719C" /* colorCloud.cpp */,
-				"AE23BFCD-C0DF-49A2-90A0-472A9E9057B3" /* colorCloud.h */,
-				"768BD633-4601-492B-ADC8-3BB51FEED224" /* wordCloud.cpp */,
-				"BC615156-D6E6-4331-A3B0-E5457335C6DB" /* wordCloud.h */,
-				"59FE8A20-557A-487E-A712-67F10AC41E1F" /* modules */,
-				"8301DABD-252E-4695-A179-B611997FBCFF" /* addons */,
+				"507B4C43-AC34-43F9-BCC0-662ED6362EBF" /* objectOS.cpp */,
+				"39B57CB4-B59A-4180-8855-730D8F9B92BF" /* objectOS.h */,
+				"CA8A8DE1-CEE1-4DF6-B0A2-3C1D60BE7FD4" /* colorCloud.cpp */,
+				"653B941F-E275-48A9-87F4-6DFF7E3D97AD" /* colorCloud.h */,
+				"9C09DC63-66CB-4EAE-B729-4DA080AA8502" /* wordCloud.cpp */,
+				"7FC3FF24-C0CC-4815-9E9C-A07146E8F9C5" /* wordCloud.h */,
+				"AE79B23F-C5A5-470A-B203-6AAF63E868D2" /* addons */,
+				"3628D9D1-92FF-44D5-A298-29BCDF6A0A93" /* modules */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
 		};
-		"E888432D-5C76-4872-95D9-23459B3FB24B" /* svgtiny */ = {
+		"ED8CAA0F-9E00-4E8D-A081-ADB78806D6A2" /* src */ = {
 			isa = PBXGroup;
 			children = (
-				"1D856A65-BE45-4866-BA0B-A76D60440F15" /* include */,
-			);
-			name = svgtiny;
-			sourceTree = SOURCE_ROOT;
-		};
-		"E9296D94-2FAD-48FC-B1B6-5A184EDE77FD" /* src */ = {
-			isa = PBXGroup;
-			children = (
-				"E027185E-769A-4F7D-8ABD-3053110CFE14" /* ofxTskokmtFont.cpp */,
-				"5288CDF5-7414-429A-A50B-9B2F34908B1D" /* ofxTskokmtFont.h */,
+				"3573404B-CB05-4ADE-8AF2-8D1EEF37BF62" /* fontstash.c */,
+				"1C37E42F-8C85-4DA1-AE29-52D9F736690C" /* fontstash.h */,
+				"82F40B04-36EA-42B7-AE8B-D5B9EA91D103" /* stb_truetype.c */,
+				"BF280667-245C-43D9-9397-89B01665B2E7" /* stb_truetype.h */,
 			);
 			name = src;
 			sourceTree = SOURCE_ROOT;
 		};
-		"EA466FA8-A5C4-466B-B82A-98F9DA7505F2" /* src */ = {
+		"F5801365-65B4-49EC-939A-0EB6F1CB1A4C" /* src */ = {
 			isa = PBXGroup;
 			children = (
-				"FCD0DF3D-2DF7-47DA-B7BD-BD8808A8DD31" /* ofxTskokmtTranslator.cpp */,
-				"063CA7E0-2CCE-4F5E-8DA5-F3838E581F31" /* ofxTskokmtTranslator.h */,
+				"5867F010-15EE-48A7-9268-17D1CDC134DE" /* ofxFontStash.cpp */,
+				"B58DFA03-C5AF-45A5-8C49-A0E3F3DAAAA2" /* ofxFontStash.h */,
 			);
 			name = src;
-			path = src/addons/ofxTskokmtTranslator/src;
 			sourceTree = SOURCE_ROOT;
 		};
-		"EA9807F6-4641-4038-BC37-9B2028AF8B1E" /* libs */ = {
+		"F77A5D29-BE0C-4CB5-B31D-B5AAE672EE7C" /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				"0C92B0C3-B9C1-4F7B-B935-61E63464675B" /* Box2D */,
-				"1B2D3ED3-7065-4494-BAF8-AF9213113902" /* Triangle */,
-				"FFB23CC2-9FCE-45E6-A66E-1EADEFF2038D" /* liquidfun */,
+				"7A0C0125-7EE7-41A9-A02D-F35F9887831E" /* libxml2 */,
+				"95780D2A-E7DD-4FCE-88D8-0E1EBB32EF0A" /* svgtiny */,
 			);
 			name = libs;
 			sourceTree = SOURCE_ROOT;
 		};
-		"EF1E883B-DD17-41F0-88B0-E9DAF07A7C1B" /* src */ = {
+		"FABD545E-7CCA-4498-8B16-4920088C7BEC" /* src */ = {
 			isa = PBXGroup;
 			children = (
-				"9F09326A-60EF-495E-8D36-3469D322CC73" /* ofxFontStash.cpp */,
-				"08343F09-5BB0-4373-8EB2-C288E399FB95" /* ofxFontStash.h */,
+				"E8D097F3-4765-4CFC-AA9A-2339725D72BF" /* ofxTskokmtMath.cpp */,
+				"3297960F-A950-455E-AA65-5A6B45CDABFC" /* ofxTskokmtMath.h */,
 			);
 			name = src;
+			path = src/addons/ofxTskokmtMath/src;
 			sourceTree = SOURCE_ROOT;
 		};
-		"F7DBCE30-36A6-415C-9272-B0F8EFEF65D0" /* typography */ = {
+		"FC656183-BCAE-4741-80CA-BD018AF35C5D" /* visual */ = {
 			isa = PBXGroup;
 			children = (
-				"C3467478-9130-4A94-BF80-7B61D444F09F" /* alphaDelta.cpp */,
-				"39F53D07-0D9F-4B2F-ADE4-6BA84C9194FD" /* alphaDelta.h */,
-				"BF5FAD9D-C8BD-4DB0-AAD4-F36584AB68FD" /* curvePara.cpp */,
-				"D98A5A10-1722-4C1E-A492-9D0404206397" /* curvePara.h */,
+				"18146C27-313F-42D9-8FA9-9FF86770C38A" /* typography */,
 			);
-			name = typography;
-			path = src/modules/visual/typography;
-			sourceTree = SOURCE_ROOT;
-		};
-		"FFB23CC2-9FCE-45E6-A66E-1EADEFF2038D" /* liquidfun */ = {
-			isa = PBXGroup;
-			children = (
-				"1572E9FE-3BBD-4097-8D1B-D8A7A8C5C87B" /* Contributions */,
-			);
-			name = liquidfun;
+			name = visual;
+			path = src/modules/visual;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -1225,113 +714,44 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				"37F75A23-D769-471D-8349-493796E4057B" /* HStack.cpp in Sources */,
-				"6BCF96E6-1CE9-4041-A830-6FCFE7D362DC" /* VStack.cpp in Sources */,
-				"62D5BC06-6900-4409-BBA8-26D10DA98AA5" /* marginBand.cpp in Sources */,
-				"A4EAF71E-75CB-4AFA-A2B4-4658F2611FB0" /* ofxTskokmtMath.cpp in Sources */,
-				"28CC4A47-57A8-40B1-BE3C-6E06476AB0F6" /* ofxTskokmtTranslator.cpp in Sources */,
-				"0F4E2B17-8538-44F8-91BC-95D1AD0F39EC" /* colorCloud.cpp in Sources */,
-				"9AA601C8-5CDC-41A7-9A4E-70F0132B9BC1" /* colorWorld.cpp in Sources */,
-				"9CE6CDB2-3DF1-4F77-BF68-36FC965D7738" /* twoTone.cpp in Sources */,
-				"B444C6F8-AEA2-47F2-BC79-A897CEC42354" /* blackCover.cpp in Sources */,
-				"FC1C9919-9562-4C42-BD79-3426AE85F920" /* flashCover.cpp in Sources */,
-				"4076F0F9-677D-4975-A485-9B1ACC5EA047" /* oddCover.cpp in Sources */,
-				"CF1699E2-8251-4B5E-AFC1-159D63E83438" /* pikaCover.cpp in Sources */,
-				"5177621F-8651-4B3B-A71E-36A1BC20A5BC" /* boredomWindow.cpp in Sources */,
-				"AE40EDEA-C8AB-4DD5-A825-074159BEA9E3" /* criticalWindow.cpp in Sources */,
-				"036B0AD7-F3BF-4639-89DD-6AC5963874B7" /* fromDip.cpp in Sources */,
-				"EDF97CBB-B320-466C-BEE1-C3E490CDD994" /* noizArc.cpp in Sources */,
-				"68A56B3A-63D0-4BB6-B9EB-57B29E74AA95" /* radioWindow.cpp in Sources */,
-				"67D104D7-3DCF-4F2C-B944-2F75E8FC5659" /* rapFlee.cpp in Sources */,
-				"8EA9BC4C-B91C-4B22-B168-A443173B097D" /* rollingRoll.cpp in Sources */,
-				"506B8696-A7A8-437A-88FD-AC4E0380ED4A" /* slitShut.cpp in Sources */,
-				"4541FD7A-A007-4B94-A7E5-12472BA07778" /* synMeme.cpp in Sources */,
-				"594BCBEF-9B04-42F0-B51A-4D54A24BB9D5" /* zigZig.cpp in Sources */,
-				"5833490F-8CE0-4E79-9F07-B189E8CC0E1E" /* pressRoom.cpp in Sources */,
-				"28B0C15D-3B57-47A5-AF8B-F1C1D13BD52D" /* emergeScreen.cpp in Sources */,
-				"59954763-3A85-4795-86ED-C6F81E32D6C9" /* fragScreen.cpp in Sources */,
-				"BF650B3B-5F6D-4370-910F-B434795CD621" /* pushGrid.cpp in Sources */,
-				"0CC79ABA-53C6-4268-B1DA-9DBBDF3B4FAD" /* slideGrid.cpp in Sources */,
-				"61D20FAB-BDC8-4479-863E-9492125105CA" /* splitGrid.cpp in Sources */,
-				"44A736FD-64F2-4F0D-B0E0-09E19DE355F8" /* vipGrid.cpp in Sources */,
-				"B50A7A3E-9E3B-4FC6-A77C-CD8052D67292" /* alphaDelta.cpp in Sources */,
-				"4F4DEF9F-BA54-4698-8FEC-AA247032994A" /* curvePara.cpp in Sources */,
-				"EEF3D49C-0765-467A-A8ED-212D86657668" /* objectOS.cpp in Sources */,
-				"159CC04F-B2A5-4421-B04F-3324357BDF54" /* wordCloud.cpp in Sources */,
-				"EF88BC88-CEA9-48BC-8A16-974D036C667C" /* b2ChainShape.cpp in Sources */,
-				"4C04F5D5-75DD-4358-95B8-D31EB7783446" /* b2CircleShape.cpp in Sources */,
-				"5811AB09-775D-480A-9397-E73575640FA0" /* b2EdgeShape.cpp in Sources */,
-				"C8FB943E-6FE7-4128-B48A-152D20944AE5" /* b2PolygonShape.cpp in Sources */,
-				"7108D0CB-C7EB-43FC-AF9E-5FA06A7B4389" /* b2BroadPhase.cpp in Sources */,
-				"3B86058E-614F-480E-8B3B-E9289EC0B6BE" /* b2CollideCircle.cpp in Sources */,
-				"52F33913-2FBE-4CC9-99A2-FD9F9388F53B" /* b2CollideEdge.cpp in Sources */,
-				"BD280AEF-8D53-48DA-BD96-07AF1F1A3BAC" /* b2CollidePolygon.cpp in Sources */,
-				"DF3EDC82-B5B2-4EBD-A9C7-F75FDA172A1B" /* b2Collision.cpp in Sources */,
-				"A54499E8-E1AC-4DD5-9B6E-3D35F55FD6B4" /* b2Distance.cpp in Sources */,
-				"3D621EE0-E5BC-45DC-827C-4862AA3E1E2B" /* b2DynamicTree.cpp in Sources */,
-				"2B5EA396-0083-488D-899E-DBF3B71A50BB" /* b2TimeOfImpact.cpp in Sources */,
-				"C8184F75-E638-416A-8014-94F8C8779DFD" /* b2BlockAllocator.cpp in Sources */,
-				"D79E1117-1AAB-4E9F-892F-4E75642B48C7" /* b2Draw.cpp in Sources */,
-				"6A306B14-F2D7-438F-853D-8AF59F4F5CC8" /* b2FreeList.cpp in Sources */,
-				"59FC65A0-11BF-4497-9C71-59EF2EB48882" /* b2Math.cpp in Sources */,
-				"B3D026EE-3A49-4E06-8CF4-3456F4A66F50" /* b2Settings.cpp in Sources */,
-				"F46F4449-B6A8-4EC8-B801-45D29149FF2D" /* b2StackAllocator.cpp in Sources */,
-				"BD73B985-E542-4BDA-8C9D-3AABEB52EBD0" /* b2Stat.cpp in Sources */,
-				"7ADE422D-C3E8-453E-9C40-66192E4147D7" /* b2Timer.cpp in Sources */,
-				"BC7941B6-79C5-4B61-B6D2-CB8158DCB1A2" /* b2TrackedBlock.cpp in Sources */,
-				"0AF74F46-36CB-4AE1-9EC2-F29287C777F9" /* b2ChainAndCircleContact.cpp in Sources */,
-				"9D2333C2-FB00-4A37-9CBD-F95854EF098D" /* b2ChainAndPolygonContact.cpp in Sources */,
-				"9E99612D-5EF0-4505-86AA-7C290BC98764" /* b2CircleContact.cpp in Sources */,
-				"F7FA6FA6-CCE0-45D7-ACE9-49FE8EE837EA" /* b2Contact.cpp in Sources */,
-				"2081F56A-E557-4276-8C5D-AACA55CA638F" /* b2ContactSolver.cpp in Sources */,
-				"F62FBC04-BC53-4CA3-9DA5-30B57DC9D21D" /* b2EdgeAndCircleContact.cpp in Sources */,
-				"D2F0C88B-875A-436E-89FF-A7981CD50A45" /* b2EdgeAndPolygonContact.cpp in Sources */,
-				"704790C3-2629-4519-A834-DE86E256A77C" /* b2PolygonAndCircleContact.cpp in Sources */,
-				"89FB67F7-EB78-4CD6-8042-00AC9023AEFC" /* b2PolygonContact.cpp in Sources */,
-				"3739918B-39A3-4FBA-AFF0-2D563A219896" /* b2DistanceJoint.cpp in Sources */,
-				"DE828D2F-5232-476C-8D31-EC45BA89501B" /* b2FrictionJoint.cpp in Sources */,
-				"55C6A672-425F-4B7E-8B62-F6CCF04F7F33" /* b2GearJoint.cpp in Sources */,
-				"EE77FF50-8905-42FC-AD96-A9463863FE40" /* b2Joint.cpp in Sources */,
-				"45968AD9-8799-489D-9619-5EF1B9D23ED5" /* b2MotorJoint.cpp in Sources */,
-				"FE1F3658-642C-46F5-870C-065210599E0F" /* b2MouseJoint.cpp in Sources */,
-				"1D56CB27-1819-477B-A102-A6C5A9079890" /* b2PrismaticJoint.cpp in Sources */,
-				"ABB6DF70-1ED3-4F1B-AB19-C4C2F2DE7937" /* b2PulleyJoint.cpp in Sources */,
-				"86A5B9BE-1973-497F-81BC-23F452CA29F0" /* b2RevoluteJoint.cpp in Sources */,
-				"395156F4-0B83-4A13-8641-EA0D75944670" /* b2RopeJoint.cpp in Sources */,
-				"9B2FCDC3-0453-42B9-9F75-8FD0CE7B1739" /* b2WeldJoint.cpp in Sources */,
-				"75D1B4D1-9FDB-4E12-AF14-3879E12DD453" /* b2WheelJoint.cpp in Sources */,
-				"BA7BFAD5-C742-414B-BC30-616C2BEE03C1" /* b2Body.cpp in Sources */,
-				"23E2314B-46E1-4188-8C3B-40376CDB458B" /* b2ContactManager.cpp in Sources */,
-				"862249B3-AFD0-4F1F-A696-265C89DC632E" /* b2Fixture.cpp in Sources */,
-				"686AFE79-C02F-4142-9F46-9AE92F78143F" /* b2Island.cpp in Sources */,
-				"A37EF987-1C55-4D45-B53D-65CE5EE7D427" /* b2World.cpp in Sources */,
-				"1A6A79E3-8AE0-48CC-AC17-510B96B02084" /* b2WorldCallbacks.cpp in Sources */,
-				"ED8116F7-947E-435F-B2AD-62B2084CC629" /* b2Particle.cpp in Sources */,
-				"6CB5A46A-0198-4267-ACDD-1E1A255D1CBA" /* b2ParticleAssembly.cpp in Sources */,
-				"BC494F2F-1C5B-4A31-849A-4EF4830D5DD8" /* b2ParticleGroup.cpp in Sources */,
-				"F4765D58-258D-4DB2-BA96-225BFC8C48B2" /* b2ParticleSystem.cpp in Sources */,
-				"7C115A9A-6D1C-46FE-80A3-4A3AD854C94B" /* b2VoronoiDiagram.cpp in Sources */,
-				"5215654F-0120-421A-BC28-5D2A41B8336B" /* b2Rope.cpp in Sources */,
-				"A7016E5D-FBDD-438F-BA4D-7E064D98C92F" /* triangle.cpp in Sources */,
-				"BB979714-653C-4E6D-B59A-908F452F1324" /* b2Polygon.cpp in Sources */,
-				"B268152C-4E9C-4FCD-9E8A-FC4316E1AA3E" /* b2Triangle.cpp in Sources */,
-				"1FA07007-7F2E-4711-A5E3-9F83B6D37390" /* ofxBox2d.cpp in Sources */,
-				"16CA0441-5081-47D4-A9B8-A1F5EE094B96" /* ofxBox2dBaseShape.cpp in Sources */,
-				"4AD6E554-B9A7-43A6-9ADA-772DD45C7B71" /* ofxBox2dCircle.cpp in Sources */,
-				"D057F0FC-7492-4878-84AA-54493A1DE3EF" /* ofxBox2dConvexPoly.cpp in Sources */,
-				"6B356942-6BCB-4873-875D-353B6C2EAE3F" /* ofxBox2dEdge.cpp in Sources */,
-				"D7340541-C802-4BE7-BDFD-5AC03FFA808C" /* ofxBox2dJoint.cpp in Sources */,
-				"046162E1-7508-4A16-BD3C-366B97D96BE9" /* ofxBox2dParticleSystem.cpp in Sources */,
-				"49638C93-2A5F-491D-8F94-C2551478E538" /* ofxBox2dPolygon.cpp in Sources */,
-				"ACF67C2E-14FB-4DD6-87F1-7455821DF886" /* ofxBox2dPolygonUtils.cpp in Sources */,
-				"04BC4866-19D7-4EE8-AF26-CC5E0BD01CFA" /* ofxBox2dRect.cpp in Sources */,
-				"2719D238-9F80-4D26-9899-1CF07B4496F4" /* ofxBox2dRender.cpp in Sources */,
-				"82DC60C9-CE4D-4123-94FC-D7EB1F33FBDE" /* ofxBox2dUtils.cpp in Sources */,
-				"194DC522-157B-48C1-8F40-DF0D9BE6569D" /* fontstash.c in Sources */,
-				"0094F7EA-39D0-4CCC-A1C3-9243834477E5" /* stb_truetype.c in Sources */,
-				"E3CD797A-08FE-491D-BDDB-7A9EC8EFE726" /* ofxFontStash.cpp in Sources */,
-				"962E61BE-2B4D-46FF-A68D-6BE59DF4E9A8" /* ofxSvg.cpp in Sources */,
-				"E6B90B0F-EE76-4B2E-A02A-411560EF315B" /* ofxTskokmtFont.cpp in Sources */,
+				"5146B4D8-DBCA-47E7-87B7-02FDE3684DA9" /* HStack.cpp in Sources */,
+				"AC6F5A92-7512-4C4D-8D40-977E3CC43130" /* VStack.cpp in Sources */,
+				"2726B851-B9EC-42E1-A086-8A32C3066BB1" /* marginBand.cpp in Sources */,
+				"98DC3407-A3E4-4EA9-94B5-1193C5663543" /* ofxTskokmtFont.cpp in Sources */,
+				"7AEB56BE-CFD6-4C4F-925A-4E5876231D45" /* ofxTskokmtMath.cpp in Sources */,
+				"D4B9B0BE-7E48-440D-BB1D-F19E0DF825FF" /* ofxTskokmtTranslator.cpp in Sources */,
+				"95D51EC2-4CE8-4232-9820-E9D6D135AA91" /* colorCloud.cpp in Sources */,
+				"C75D9CE2-2F3D-4067-9913-BAB3611F1DA2" /* colorWorld.cpp in Sources */,
+				"A08F13D8-E5DF-460E-98D7-23CB29D66D59" /* twoTone.cpp in Sources */,
+				"20D7D7A2-9082-4EC0-ACC9-ECCDAABA99C4" /* blackCover.cpp in Sources */,
+				"62FD86EB-0FBB-45B2-BFA8-F6988485FE28" /* flashCover.cpp in Sources */,
+				"DB586309-030B-4B4D-9703-63B042691B99" /* oddCover.cpp in Sources */,
+				"8AAD0AA8-15A2-45EB-8FE4-DF99E0B0E106" /* pikaCover.cpp in Sources */,
+				"D6E0E228-5AF8-4DCD-9125-4AF59D6FA89D" /* boredomWindow.cpp in Sources */,
+				"D146A04E-ED59-4C93-829A-52AEF7AC6688" /* criticalWindow.cpp in Sources */,
+				"2CF4B516-6136-4F20-A7CF-E6A1D7924434" /* fromDip.cpp in Sources */,
+				"34E9EEAA-7A01-4FD9-97B4-B14FC99A6059" /* noizArc.cpp in Sources */,
+				"0CB395C8-6070-4389-8C1A-E5B2ADB4E0ED" /* radioWindow.cpp in Sources */,
+				"5583322D-B832-4E60-AC0B-5EC6B8C60910" /* rapFlee.cpp in Sources */,
+				"6604FD02-4468-4D65-AF72-CFF255DE28AE" /* rollingRoll.cpp in Sources */,
+				"7337EAD2-FA76-43ED-BA01-392285B5845B" /* slitShut.cpp in Sources */,
+				"A1FA6019-CE66-4A4C-A57B-09D40697E27A" /* synMeme.cpp in Sources */,
+				"BAA95894-5E55-4C8D-A47B-783196994D1E" /* zigZig.cpp in Sources */,
+				"45880438-D97A-4C15-9C23-D0CC76FBBD6E" /* pressRoom.cpp in Sources */,
+				"C1283F51-F25F-4ABB-988C-EE7E0BF53DC9" /* emergeScreen.cpp in Sources */,
+				"B8F16CA9-8690-4D94-B7C6-A52B020E75FB" /* fragScreen.cpp in Sources */,
+				"E0433D77-4D56-4093-B210-2C0DBF81FEE4" /* pushGrid.cpp in Sources */,
+				"CEB3EE4F-C865-4EA6-A833-218F90CD8C4D" /* slideGrid.cpp in Sources */,
+				"13F1F393-6038-46AA-A785-E487AB66CF01" /* splitGrid.cpp in Sources */,
+				"C7421396-E4C6-4FE9-88BE-F7608B57E2C6" /* vipGrid.cpp in Sources */,
+				"FE073524-B2A6-4DE8-ACE1-84995C42C94F" /* alphaDelta.cpp in Sources */,
+				"EE3BFDC0-09DD-47A2-B0BD-4591AB710809" /* curvePara.cpp in Sources */,
+				"A8AB60CA-7965-49B0-8E2A-1E9F4DAEA2C0" /* objectOS.cpp in Sources */,
+				"37AFB7BA-B1A2-4F56-B4EE-3FEC52C1F6F4" /* wordCloud.cpp in Sources */,
+				"66513628-C4DA-499B-B12E-7EC60822A1D3" /* fontstash.c in Sources */,
+				"334D3A8B-A0ED-466C-8FC2-A26947AD5C6E" /* stb_truetype.c in Sources */,
+				"191BF443-2E57-42B4-9A7D-BB172CAF5690" /* ofxFontStash.cpp in Sources */,
+				"C5EB0D1D-3446-447A-BFF2-E66BAF0D49B3" /* ofxSvg.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1384,6 +804,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					src/addons/ofxFrameOcean/src,
+					src/addons/ofxTskokmtFont/src,
 					src/addons/ofxTskokmtMath/src,
 					src/addons/ofxTskokmtTranslator/src,
 					src,
@@ -1393,24 +814,6 @@
 					src/modules,
 					src/modules/screen,
 					src/modules/visual/typography,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Triangle,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements/FixedPoint,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities/ConvexDecomposition,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src,
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs,
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash,
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash/src,
@@ -1431,7 +834,6 @@
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/svgtiny/lib/osx,
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/svgtiny/license,
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/src,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxTskokmtFont/src,
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
@@ -1456,6 +858,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					src/addons/ofxFrameOcean/src,
+					src/addons/ofxTskokmtFont/src,
 					src/addons/ofxTskokmtMath/src,
 					src/addons/ofxTskokmtTranslator/src,
 					src,
@@ -1465,24 +868,6 @@
 					src/modules,
 					src/modules/screen,
 					src/modules/visual/typography,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Common,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Particle,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/Triangle,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements/FixedPoint,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities/ConvexDecomposition,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxBox2d/src,
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs,
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash,
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxFontStash/libs/fontstash/src,
@@ -1503,7 +888,6 @@
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/svgtiny/lib/osx,
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/libs/svgtiny/license,
 					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxSvg/src,
-					/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxTskokmtFont/src,
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (

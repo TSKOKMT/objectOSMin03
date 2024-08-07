@@ -1,4 +1,2 @@
-ofxBox2d
 ofxFontStash
 ofxSvg
-ofxTskokmtFont

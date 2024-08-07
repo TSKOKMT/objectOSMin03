@@ -3,8 +3,8 @@
 #include "ofMain.h"
 
 #include "ofxFrameOcean.h"
-
 #include "pressRoom.h"
+#include "colorCloud.h"
 
 //Biview!
 
@@ -24,4 +24,5 @@ public:
     pressRoom myPressRoom;
         
 private:
+    colorCloud myColorCloud;
 };

@@ -15,6 +15,8 @@ curvePara::curvePara() {
 //--------------------------------------------------------------
 void curvePara::draw(ofRectangle frame_, float time_) {
     
+    //UPDATE
+    
     auto unit = sqrt(frame_.width * frame_.height) / 120.;
     
     float height_ = height * unit;
@@ -41,6 +43,11 @@ void curvePara::draw(ofRectangle frame_, float time_) {
     for (int i = 0; i < size - 1; i++) {
         length += ofDist(polyline.getVertices()[i].x, polyline.getVertices()[i].y, polyline.getVertices()[i + 1].x, polyline.getVertices()[i + 1].y);
     }
+    
+    //DRAW
+    
+    ofPushStyle();
+    ofSetColor(myColorCloud.six[0]);
     
     for (int i = 0; i < text_.size(); i++) {
         font.setText(ofToString(text_[i]));
@@ -70,6 +77,8 @@ void curvePara::draw(ofRectangle frame_, float time_) {
         
         ofPopMatrix();
     }
+    
+    ofPopStyle();
     
     /*font.draw();
     
